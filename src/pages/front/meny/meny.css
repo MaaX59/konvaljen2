@@ -1,0 +1,19 @@
+.meny {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--color-lite-blue);
+  height: 18rem;
+}
+.meny img {
+  max-width: 14rem;
+  height: auto;
+}
+.meny-navbar {
+  display: flex;
+  width: 55%;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  font-family: "Cormorant";
+}
