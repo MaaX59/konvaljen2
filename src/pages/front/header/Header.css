@@ -1,0 +1,33 @@
+.header {
+  position: relative;
+}
+.header img {
+  width: 100%;
+}
+.header-info {
+  position: absolute;
+  top: 70%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+
+  width: 20vw;
+  height: 15vh;
+  border: 1px solid rgb(166, 69, 69);
+}
+.header-info h2 {
+  color: var(--color-dark);
+  font-size: 30px;
+}
+.header button {
+  position: absolute;
+  top: 88%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+  border: none;
+  background-color: var(--color-lite-blue);
+  color: var(--color-dark);
+}
