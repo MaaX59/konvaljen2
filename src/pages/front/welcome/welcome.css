@@ -1,0 +1,39 @@
+.welcome {
+  display: flex;
+  background-color: var(--color-lite-blue);
+  color: var(--color-dark);
+  height: 700px;
+  font-family: Cormerant;
+  justify-content: space-between;
+}
+.welcome-text {
+  display: flex;
+  flex-direction: column;
+}
+.welcome-text {
+  width: 60vw;
+  height: 700px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.welcome-text h1 {
+  font-size: 40px;
+}
+.welcome-text h3 {
+  font-size: 25px;
+}
+.welcome img {
+  width: 150px;
+}
+.welcome-rightRose {
+  height: fill-content;
+}
+.welcome-rightRose img {
+  position: relative;
+  top: 70%;
+  -moz-transform: scale(-1, -1);
+  -o-transform: scale(-1, -1);
+  -webkit-transform: scale(-1, -1);
+  transform: scale(-1, -1);
+}

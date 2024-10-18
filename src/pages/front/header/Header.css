@@ -1,5 +1,6 @@
 .header {
   position: relative;
+  background-color: var(--color-lite-blue);
 }
 .header img {
   width: 100%;

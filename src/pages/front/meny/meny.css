@@ -4,16 +4,18 @@
   align-items: center;
   flex-direction: column;
   background-color: var(--color-lite-blue);
-  height: 18rem;
+  height: 15rem;
 }
 .meny img {
-  max-width: 14rem;
+  max-width: 12rem;
   height: auto;
+  margin: 0px;
 }
 .meny-navbar {
   display: flex;
   width: 55%;
   justify-content: space-between;
-  margin-bottom: 1rem;
+  height: auto;
   font-family: "Cormorant";
+  margin-bottom: 5px;
 }
