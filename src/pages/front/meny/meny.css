@@ -16,6 +16,14 @@
   width: 55%;
   justify-content: space-between;
   height: auto;
-  font-family: "Cormorant";
+  font-family: "Cormorant Upright";
   margin-bottom: 5px;
+  list-style: none;
+}
+.meny-navbar a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  font-family: "Cormorant Upright";
 }

@@ -1,0 +1,27 @@
+.länkar {
+  height: 600px;
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--color-lite-blue);
+}
+.länkar-oss,
+.länkar-tjänster,
+.länkar-kontakt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.länkar-oss-box,
+.länkar-tjänster-box,
+.länkar-kontakt-box {
+  width: 420px;
+  height: 280px;
+  border: 1px solid black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.länkar img {
+  width: 420px;
+  height: 280px;
+  object-fit: fill;
+}

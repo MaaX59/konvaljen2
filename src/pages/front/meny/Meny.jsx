@@ -8,13 +8,13 @@ const Meny = () => {
       <img src={logo} alt="big logo" />
       <div className="meny-navbar">
         <div className="meny-navbar-oss">
-          <h2>Om Oss</h2>
+          <a href="/om-oss"> Om Oss</a>
         </div>
         <div className="meny-navbar-tjänster">
-          <h2>Våra Tjänster</h2>
+          <a href="/tjanster"> Våra Tjänster</a>
         </div>
         <div className="meny-navbar-kontakt">
-          <h2>Kontakt</h2>
+          <a href="/kontakt"> Kontakt</a>
         </div>
       </div>
     </div>

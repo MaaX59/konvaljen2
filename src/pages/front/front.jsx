@@ -2,6 +2,7 @@ import React from "react";
 import Meny from "./meny/Meny";
 import Header from "./header/Header";
 import Welcome from "./welcome/Welcome";
+import Länkar from "./Länkar/Länkar";
 
 const Front = () => {
   return (
@@ -9,6 +10,7 @@ const Front = () => {
       <Meny />
       <Header />
       <Welcome />
+      <Länkar />
     </div>
   );
 };
