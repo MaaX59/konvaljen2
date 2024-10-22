@@ -3,6 +3,7 @@ import Meny from "./meny/Meny";
 import Header from "./header/Header";
 import Welcome from "./welcome/Welcome";
 import Länkar from "./Länkar/Länkar";
+import Footer from "./footer/Footer";
 
 const Front = () => {
   return (
@@ -11,6 +12,7 @@ const Front = () => {
       <Header />
       <Welcome />
       <Länkar />
+      <Footer />
     </div>
   );
 };

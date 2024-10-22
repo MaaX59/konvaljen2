@@ -1,0 +1,20 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 230px;
+  background-color: var(--color-cream);
+}
+.footer-kontakt,
+.footer-tider {
+  font-family: "Cormorant";
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--color-blue);
+}
+.footer-media {
+  color: var(--color-blue);
+}
+.footer-media :first-child {
+  margin-right: 2rem;
+}

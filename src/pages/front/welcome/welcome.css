@@ -1,6 +1,6 @@
 .welcome {
   display: flex;
-  background-color: var(--color-lite-blue);
+  background-color: var(--color-cream);
   color: var(--color-dark);
   height: 700px;
   font-family: Cormerant;
