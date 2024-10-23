@@ -7,6 +7,9 @@ const Meny = () => {
     <div className="meny">
       <img src={logo} alt="big logo" />
       <div className="meny-navbar">
+        <div className="meny-navbar-hem">
+          <a href="/"> Hem</a>
+        </div>
         <div className="meny-navbar-oss">
           <a href="/om-oss"> Om Oss</a>
         </div>

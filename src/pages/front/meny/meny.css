@@ -1,10 +1,10 @@
 .meny {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  flex-direction: column;
+
   background-color: var(--color-lite-blue);
-  height: 15rem;
+  height: 20vh;
 }
 .meny img {
   max-width: 12rem;
@@ -13,11 +13,12 @@
 }
 .meny-navbar {
   display: flex;
-  width: 55%;
+  width: 30%;
   justify-content: space-between;
   height: auto;
   font-family: "Cormorant Upright";
-  margin-bottom: 5px;
+  /*  margin-bottom: 5px; */
+  margin-top: 5rem;
   list-style: none;
 }
 .meny-navbar a {

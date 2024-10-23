@@ -1,0 +1,59 @@
+.våraTjänster {
+  height: 2000px;
+  background-color: var(--color-cream);
+  flex-direction: column;
+  display: flex;
+  justify-content: space-evenly;
+}
+.våraTjänster-bröllop,
+.våraTjänster-företag,
+.våraTjänster-begravning {
+  display: grid;
+  height: 500px;
+}
+.våraTjänster-bröllop-text,
+.våraTjänster-företag-text,
+.våraTjänster-begravning-text {
+  position: relative;
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  z-index: 1;
+  flex-direction: column;
+  height: 300px;
+  width: 600px;
+  background-color: var(--color-lite-blue);
+  top: 50%;
+  left: 20vw;
+  border-radius: 5px;
+  line-height: 1;
+}
+.våraTjänster-bröllop-text h2,
+.våraTjänster-företag-text h2,
+.våraTjänster-begravning-text h2 {
+  font-family: "Cormorant Upright";
+  font-size: 45px;
+  margin-left: 3rem;
+}
+.våraTjänster-bröllop-text span,
+.våraTjänster-företag-text span,
+.våraTjänster-begravning-text span {
+  margin: 0 1rem 1rem 3rem;
+  font-family: "Cormorant Upright";
+  width: 500px;
+  font-size: 27px;
+  text-align: start;
+}
+.våraTjänster-bröllop-bild,
+.våraTjänster-företag-bild,
+.våraTjänster-begravning-bild {
+  height: 400px;
+}
+
+.våraTjänster img {
+  position: relative;
+  top: -50%;
+  left: 50vw;
+  height: 400px;
+  width: 560px;
+}
