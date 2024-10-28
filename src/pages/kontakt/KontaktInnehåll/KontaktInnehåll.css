@@ -1,4 +1,53 @@
 .KontaktInnehåll {
-  height: 55vh;
+  height: 80vh;
   background-color: var(--color-cream);
+  display: grid;
+}
+.KontaktInnehåll-bild img {
+  width: 100%;
+  height: 80vh;
+  object-fit: cover;
+  position: relative;
+}
+.KontaktInnehåll-bild {
+  height: 500px;
+}
+.KontaktInnehåll-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  top: -75%;
+  left: 0vw;
+  height: 400px;
+  width: 40vw;
+
+  background-color: rgba(4, 4, 4, 0.604);
+  animation: 3s slide;
+  color: aliceblue;
+}
+.KontaktInnehåll-text h2 {
+  margin-left: 5rem;
+  font-size: 40px;
+  color: var(--color-cream);
+  font-family: "Cormorant";
+}
+
+.KontaktInnehåll-text span {
+  font-family: "Cormorant upright";
+
+  width: 37vw;
+  font-size: 28px;
+  text-align: start;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  opacity: 1;
+}
+@keyframes slide {
+  from {
+    transform: translateX(-150px);
+  }
+  to {
+    transform: translateX(0px);
+  }
 }
