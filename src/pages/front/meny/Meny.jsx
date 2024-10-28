@@ -2,8 +2,7 @@ import logo from "../../../pics/LOGO_PRINCIPAL_KOLVAJEN.png";
 import "./meny.css";
 import { useState, React } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
-import { MdOutlineRestaurantMenu } from "react-icons/md";
-
+import { ImCross } from "react-icons/im";
 const Meny = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
@@ -27,14 +26,15 @@ const Meny = () => {
       <div className="meny-navbar-smallscreen">
         <GiHamburgerMenu
           color="#fff"
-          fontSize={27}
+          fontSize={30}
           onClick={() => setToggleMenu(true)}
         />
 
         {toggleMenu && (
           <div className="meny-navbar-smallscreen-overlay flex__center slide-bottom">
-            <MdOutlineRestaurantMenu
+            <ImCross
               fontSize={27}
+              color="#fff"
               className="overlay__close"
               onClick={() => setToggleMenu(false)}
             />
