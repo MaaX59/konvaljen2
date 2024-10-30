@@ -4,7 +4,7 @@
   align-items: center;
 
   background-color: var(--color-lite-blue);
-  height: 20vh;
+  height: 18vh;
 }
 .meny img {
   max-width: 12rem;
@@ -14,7 +14,7 @@
 .meny-navbar {
   display: flex;
   width: 30%;
-  justify-content: space-between;
+  justify-content: space-around;
   height: auto;
   font-family: "Cormorant Upright";
   /*  margin-bottom: 5px; */
@@ -25,7 +25,7 @@
   list-style: none;
   text-decoration: none;
   color: black;
-  font-size: 25px;
+  font-size: 30px;
   font-family: "Cormorant Upright";
 }
 
@@ -70,6 +70,9 @@
 @media screen and (max-width: 2000px) {
   .meny img {
     max-width: 10rem;
+  }
+  .meny-navbar a {
+    font-size: 25px;
   }
 }
 

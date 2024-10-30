@@ -9,9 +9,6 @@ const Header = () => {
       <div className="header-info">
         <h2>En blomma för varje stund</h2>
       </div>
-      <button>
-        <h2>Kontakta oss</h2>
-      </button>
     </div>
   );
 };
