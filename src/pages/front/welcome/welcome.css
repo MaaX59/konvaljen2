@@ -37,3 +37,15 @@
   -webkit-transform: scale(-1, -1);
   transform: scale(-1, -1);
 }
+@media screen and (max-width: 1400px) {
+  .welcome {
+    height: 1600px;
+  }
+  .welcome img {
+    width: 80px;
+  }
+  .welcome-text {
+    width: 60vw;
+    height: 1500px;
+  }
+}

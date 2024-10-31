@@ -41,4 +41,7 @@
   .header-info h2 {
     font-size: 40px;
   }
+  .header img {
+    object-position: 20% 80%;
+  }
 }

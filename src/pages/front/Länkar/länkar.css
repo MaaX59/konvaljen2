@@ -25,3 +25,21 @@
   height: 280px;
   object-fit: fill;
 }
+@media screen and (max-width: 1400px) {
+  .länkar {
+    height: 1200px;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 700px) {
+  .länkar-oss-box,
+  .länkar-tjänster-box,
+  .länkar-kontakt-box {
+    width: 350px;
+    height: 200px;
+  }
+  .länkar img {
+    width: 350px;
+    height: 200px;
+  }
+}
