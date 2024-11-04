@@ -14,32 +14,53 @@
   left: 20%;
   transform: translate(-50%, -50%);
   border: 5px solid white;
-  width: 600px;
-  height: 13vh;
+  width: 640px;
+  height: fit-content;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: rgba(0, 0, 0, 0.136);
 }
 .header-info h2 {
-  color: rgb(15, 2, 88);
+  color: rgb(255, 255, 255);
   font-size: 55px;
   font-family: "Cormorant Upright";
   text-shadow: 5px;
   font-weight: 600;
 }
 
-@media screen and (max-width: 1550px) {
+@media screen and (max-width: 1640px) {
   .header-info {
+    width: 500px;
+    top: 85%;
     left: 25%;
+  }
+  .header-info h2 {
+    font-size: 40px;
   }
 }
 @media screen and (max-width: 1250px) {
   .header-info {
-    left: 23%;
     width: 500px;
+    top: 85%;
+    left: 50%;
   }
   .header-info h2 {
     font-size: 40px;
+  }
+  .header img {
+    object-position: 20% 80%;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .header-info {
+    width: 350px;
+    top: 87%;
+    left: 50%;
+  }
+  .header-info h2 {
+    font-size: 30px;
   }
   .header img {
     object-position: 20% 80%;

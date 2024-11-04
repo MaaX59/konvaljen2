@@ -6,6 +6,12 @@
   font-family: Cormerant;
   justify-content: space-between;
 }
+.welcome :first-child {
+  align-items: none;
+}
+.welcome :last-child {
+  align-items: end;
+}
 .welcome-text {
   display: flex;
   flex-direction: column;
@@ -39,13 +45,69 @@
 }
 @media screen and (max-width: 1400px) {
   .welcome {
-    height: 1600px;
+    height: 900px;
   }
   .welcome img {
     width: 80px;
   }
+  .welcome img:first-child {
+    margin-top: 2rem;
+  }
   .welcome-text {
     width: 60vw;
-    height: 1500px;
+    height: 900px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .welcome {
+    height: 1000px;
+  }
+
+  .welcome-text {
+    width: 70vw;
+    height: 1000px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .welcome {
+    height: 800px;
+  }
+  .welcome img {
+    width: 50px;
+  }
+  .welcome-text {
+    width: 70vw;
+    height: 800px;
+  }
+  .welcome-text h1 {
+    font-size: 33px;
+  }
+  .welcome-text h3 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .welcome {
+    height: 900px;
+  }
+
+  .welcome-text {
+    width: 70vw;
+    height: 900px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .welcome {
+    height: 900px;
+  }
+  .welcome-text h1 {
+    font-size: 30px;
+  }
+  .welcome-text h3 {
+    font-size: 18px;
+  }
+  .welcome-text {
+    width: 70vw;
+    height: 900px;
   }
 }

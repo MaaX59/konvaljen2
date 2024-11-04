@@ -29,6 +29,7 @@
   .länkar {
     height: 1200px;
     flex-direction: column;
+    justify-content: space-evenly;
   }
 }
 @media screen and (max-width: 700px) {
@@ -41,5 +42,20 @@
   .länkar img {
     width: 350px;
     height: 200px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .länkar {
+    height: 900px;
+  }
+  .länkar-oss-box,
+  .länkar-tjänster-box,
+  .länkar-kontakt-box {
+    width: 330px;
+    height: 175px;
+  }
+  .länkar img {
+    width: 330px;
+    height: 175px;
   }
 }

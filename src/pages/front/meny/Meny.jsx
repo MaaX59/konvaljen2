@@ -25,8 +25,8 @@ const Meny = () => {
       </div>
       <div className="meny-navbar-smallscreen">
         <GiHamburgerMenu
-          color="#fff"
-          fontSize={30}
+          color="#3a4e5d"
+          fontSize={50}
           onClick={() => setToggleMenu(true)}
         />
 

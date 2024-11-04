@@ -13,7 +13,7 @@
 }
 .meny-navbar {
   display: flex;
-  width: 30%;
+  width: 38%;
   justify-content: space-around;
   height: auto;
   font-family: "Cormorant Upright";
@@ -76,7 +76,7 @@
   }
 }
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1200px) {
   .meny-navbar {
     display: none;
   }

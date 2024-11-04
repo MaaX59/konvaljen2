@@ -5,16 +5,44 @@
   height: 230px;
   background-color: var(--color-cream);
 }
+.footer-vector {
+  display: none;
+}
 .footer-kontakt,
 .footer-tider {
   font-family: "Cormorant";
   font-size: 20px;
   font-weight: 600;
-  color: var(--color-blue);
+  color: rgb(21, 1, 87);
 }
 .footer-media {
   color: var(--color-blue);
 }
 .footer-media :first-child {
   margin-right: 2rem;
+}
+
+@media screen and (max-width: 800px) {
+  .footer {
+    height: 500px;
+    flex-direction: column;
+  }
+  .footer-vector {
+    display: flex;
+  }
+  .footer-kontakt,
+  .footer-tider {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 500px) {
+  .footer {
+    height: 400px;
+  }
+  .footer-kontakt,
+  .footer-tider {
+    font-size: 16px;
+  }
 }

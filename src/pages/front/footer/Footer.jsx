@@ -2,7 +2,7 @@ import React from "react";
 import "./footer.css";
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
-
+import vector from "../../../pics/vactor.png";
 const Footer = () => {
   return (
     <div className="footer">
