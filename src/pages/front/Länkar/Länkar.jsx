@@ -11,19 +11,19 @@ const Länkar = () => {
         <div className="länkar-oss-box">
           <img src={oss} alt="om oss" />
         </div>
-        <h3>Om oss</h3>
+        <a href="/om-oss"> Om Oss</a>
       </div>
       <div className="länkar-tjänster">
         <div className="länkar-tjänster-box">
           <img src={tjänster} alt="våra tjänster" />
         </div>
-        <h3>Våra Tjänster</h3>
+        <a href="/tjanster"> Våra tjänster</a>
       </div>
       <div className="länkar-kontakt">
         <div className="länkar-kontakt-box">
           <img src={kontakt} alt="kontakta oss" />
         </div>
-        <h3>Kontakta oss</h3>
+        <a href="/kontakt"> Kontakta Oss</a>
       </div>
     </div>
   );

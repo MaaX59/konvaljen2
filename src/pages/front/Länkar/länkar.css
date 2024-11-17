@@ -25,6 +25,17 @@
   height: 280px;
   object-fit: fill;
 }
+
+.länkar-oss a,
+.länkar-tjänster a,
+.länkar-kontakt a {
+  font-family: "Cormorant Upright";
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+  margin-top: 1rem;
+}
+
 @media screen and (max-width: 1400px) {
   .länkar {
     height: 1200px;
