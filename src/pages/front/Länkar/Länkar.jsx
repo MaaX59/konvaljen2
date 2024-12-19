@@ -14,7 +14,7 @@ const Länkar = () => {
             <img src={oss} alt="om oss" />
           </Link>
         </div>
-        <h3>Om oss</h3>
+        <a href="/om-oss"> Om Oss</a>
       </div>
       <div className="länkar-tjänster">
         <div className="länkar-tjänster-box">
@@ -22,7 +22,7 @@ const Länkar = () => {
             <img src={tjänster} alt="våra tjänster" />
           </Link>
         </div>
-        <h3>Våra Tjänster</h3>
+        <a href="/tjanster"> Våra tjänster</a>
       </div>
       <div className="länkar-kontakt">
         <div className="länkar-kontakt-box">
@@ -30,7 +30,7 @@ const Länkar = () => {
             <img src={kontakt} alt="kontakta oss" />
           </Link>
         </div>
-        <h3>Kontakta oss</h3>
+        <a href="/kontakt"> Kontakta Oss</a>
       </div>
     </div>
   );
