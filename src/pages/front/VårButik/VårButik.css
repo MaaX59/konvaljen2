@@ -1,0 +1,28 @@
+.vårbutik {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.vårbutik-första-raden {
+  height: 48vh;
+  display: flex;
+}
+.vårbutik-första-raden img {
+  width: calc(100% / 3);
+}
+.vårbutik-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 14vh;
+  font-size: 50px;
+  font-family: "Cormorant Upright";
+  color: var(--color-blue);
+}
+.vårbutik-andra-raden {
+  height: 38vh;
+  display: flex;
+}
+.vårbutik-andra-raden img {
+  width: 25%;
+}

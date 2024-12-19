@@ -3,7 +3,7 @@
   justify-content: space-around;
   align-items: center;
 
-  background-color: var(--color-lite-blue);
+  background-color: white;
   height: 18vh;
 }
 .meny img {
@@ -13,19 +13,23 @@
 }
 .meny-navbar {
   display: flex;
-  width: 38%;
+  width: 70%;
   justify-content: space-around;
+  align-items: center;
   height: auto;
   font-family: "Cormorant Upright";
   /*  margin-bottom: 5px; */
   margin-top: 5rem;
   list-style: none;
 }
+.meny-navbar-hem img {
+  margin-bottom: 50px;
+}
 .meny-navbar a {
   list-style: none;
   text-decoration: none;
   color: black;
-  font-size: 30px;
+  font-size: 35px;
   font-family: "Cormorant Upright";
 }
 
