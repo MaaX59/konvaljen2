@@ -17,7 +17,8 @@
   height: 14vh;
   font-size: 50px;
   font-family: "Cormorant Upright";
-  color: var(--color-blue);
+  color: var(--color-dark);
+  background-color: var(--color-cream);
 }
 .vårbutik-andra-raden {
   height: 38vh;

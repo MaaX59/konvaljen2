@@ -28,9 +28,26 @@
 .meny-navbar a {
   list-style: none;
   text-decoration: none;
+  display: inline-block;
   color: black;
   font-size: 35px;
   font-family: "Cormorant Upright";
+}
+.meny-navbar a:after {
+  background: none repeat scroll 0 0 transparent;
+
+  content: "";
+  display: block;
+  height: 1px;
+  left: 50%;
+
+  background: #261e1e;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.meny-navbar a:hover:after {
+  width: 100%;
+  left: 0;
 }
 
 .meny-navbar-smallscreen {

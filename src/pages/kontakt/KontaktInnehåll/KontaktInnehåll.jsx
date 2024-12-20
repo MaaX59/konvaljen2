@@ -1,6 +1,6 @@
 import React from "react";
 import "./KontaktInnehåll.css";
-import kontaktaOss from "../../../pics/Kontakta oss.png";
+import kontaktaOss from "../../../pics/Kontakta oss.jpg";
 
 const KontaktInnehåll = () => {
   return (

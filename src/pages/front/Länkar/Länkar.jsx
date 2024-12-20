@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./länkar.css";
-import kontakt from "../../../pics/Kontakta oss.png";
+import kontakt from "../../../pics/Kontakta oss.jpg";
 import tjänster from "../../../pics/Våra tjänster.png";
 import oss from "../../../pics/Om oss.png";
 

@@ -7,22 +7,23 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="footer-kontakt">
+        <h2 className="footer-title">Kontakt</h2>
         <span>
-          Torggatan 9 <p />
-          Trollhättan
+          076 27 86 41 6 <p />
+          Torggatan 9, Trollhättan
           <p />
-          <p />
-          Tel 076 27 86 41 6 <p />
-          Email kontakt@konvaljentrollhattan.se
+          Kontakt@konvaljentrollhattan.se
         </span>
       </div>
       <div className="footer-tider">
+        <h2 className="footer-title">Öppetider</h2>
         <span>
-          Öppetider
           <p />
-          Mån - Fre: 10:00 - 18:00
+          Måndag - Fredag: 10:00 - 18:00
           <p />
-          Lör: 10:00 - 16:00
+          Lördag: 10:00 - 16:00
+          <p />
+          Söndag: Stängt
         </span>
       </div>
       <div className="footer-media">

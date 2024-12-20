@@ -8,12 +8,18 @@
 .footer-vector {
   display: none;
 }
+.footer-title {
+  font-family: "Cormorant Upright";
+  font-size: 26px;
+  color: rgb(98, 83, 1);
+}
 .footer-kontakt,
 .footer-tider {
-  font-family: "Cormorant";
-  font-size: 20px;
+  font-family: "Cormorant Upright";
+  font-size: 22px;
   font-weight: 600;
   color: rgb(21, 1, 87);
+  text-align: center;
 }
 .footer-media {
   color: var(--color-blue);

@@ -6,9 +6,9 @@ import logo2 from "../../../pics/logo2.png";
 const Header = () => {
   return (
     <div className="header">
-      <div className="header-slider">
+      {/* <div className="header-slider">
         <img src={logo2} alt="logo" />
-      </div>
+      </div> */}
       <img src={headerImg} alt="konvaljen front" />
       <div className="header-info">
         <h2>En blomma för varje stund</h2>
