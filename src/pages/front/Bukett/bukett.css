@@ -1,0 +1,31 @@
+.bukett {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+.bukett-text {
+  width: 30vw;
+  margin-right: 2rem;
+  font-family: "Cormorant Upright";
+}
+.bukett-text h1 {
+  font-size: 70px;
+  text-align: center;
+}
+.bukett-text h4 {
+  font-size: 20px;
+}
+.bukett-text-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+.bukett-text-button a {
+  text-decoration: none;
+
+  width: 80%;
+}
+.bukett-bild img {
+  width: 30vw;
+}
