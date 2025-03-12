@@ -1,6 +1,6 @@
 .våraTjänster {
-  height: 2000px;
-  background-color: var(--color-cream);
+  height: 2500px;
+
   flex-direction: column;
   display: flex;
   justify-content: space-evenly;
@@ -8,32 +8,24 @@
 .våraTjänster-bröllop,
 .våraTjänster-företag,
 .våraTjänster-begravning {
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 500px;
 }
 .våraTjänster-bröllop-text,
 .våraTjänster-företag-text,
 .våraTjänster-begravning-text {
-  position: relative;
   display: flex;
-  /* justify-content: center;
-  align-items: center; */
-  z-index: 1;
+  align-items: center;
   flex-direction: column;
-  height: 300px;
-  width: 600px;
-  background-color: var(--color-lite-blue);
-  top: 50%;
-  left: 20vw;
-  border-radius: 5px;
-  line-height: 1;
 }
 .våraTjänster-bröllop-text h2,
 .våraTjänster-företag-text h2,
 .våraTjänster-begravning-text h2 {
   font-family: "Cormorant Upright";
   font-size: 45px;
-  margin-left: 3rem;
 }
 .våraTjänster-bröllop-text span,
 .våraTjänster-företag-text span,
@@ -51,11 +43,43 @@
 }
 
 .våraTjänster img {
+  position: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 1200px;
+  object-fit: cover;
+}
+
+.våraTjänster-linje {
+  width: 1200px;
+  border: none;
+  border-top: 3px double #333;
+  color: #333;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+  margin: 5rem 0;
+}
+
+.våraTjänster-linje::after {
+  background: #fff;
+  content: "§";
+  padding: 0 4px;
   position: relative;
-  top: -50%;
-  left: 50vw;
-  height: 400px;
-  width: 560px;
+  top: -13px;
+}
+.våraTjänster-button {
+  border: solid 1px black;
+  border-radius: 3px;
+  font-family: "Cormorant Upright";
+  font-size: 25px;
+  height: 70px;
+  width: 120px;
+}
+.våraTjänster-button:hover {
+  color: var(--color-blue);
+  background-color: aliceblue;
 }
 
 @media screen and (max-width: 1400px) {
