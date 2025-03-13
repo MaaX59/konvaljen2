@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./våraTjänster.css";
 import bild from "../../../pics/Våra tjänster.png";
 
@@ -15,7 +16,9 @@ const våraTjänster = () => {
             Ditt bröllop är ett minne för livet, en dag att minnas med glädje.
           </span>
         </div>
-        <button className="våraTjänster-button"> Läs mer!</button>
+        <Link to="/brollop">
+          <button className="våraTjänster-button"> Läs mer!</button>
+        </Link>
         <hr className="våraTjänster-linje"></hr>
       </div>
 
@@ -31,6 +34,7 @@ const våraTjänster = () => {
             varje eller varannan vecka.
           </span>
         </div>
+
         <button className="våraTjänster-button"> Läs mer!</button>
         <hr className="våraTjänster-linje"></hr>
       </div>
@@ -46,7 +50,9 @@ const våraTjänster = () => {
             Ett varkert minne av en älskad vän, släktning eller kollega.
           </span>
         </div>
-        <button className="våraTjänster-button"> Läs mer!</button>
+        <Link to="/begravning">
+          <button className="våraTjänster-button"> Läs mer!</button>
+        </Link>
         <hr className="våraTjänster-linje"></hr>
       </div>
     </div>

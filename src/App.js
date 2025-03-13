@@ -3,6 +3,8 @@ import Front from "./pages/front/front";
 import About from "./pages/about/about";
 import Tjanster from "./pages/tjanster/tjanster";
 import KontaktSida from "./pages/kontakt/kontakSida.jsx";
+import Brollop from "./pages/brollop/brollop.jsx";
+import Begravning from "./pages/begravning/begravning.jsx";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -14,6 +16,8 @@ function App() {
         <Route path="/om-oss" element={<About />} />
         <Route path="/tjanster" element={<Tjanster />} />
         <Route path="/kontakt" element={<KontaktSida />} />
+        <Route path="/brollop" element={<Brollop />} />
+        <Route path="/begravning" element={<Begravning />} />
       </Routes>
     </BrowserRouter>
   );
