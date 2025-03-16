@@ -22,9 +22,17 @@
   margin-top: 5rem;
   list-style: none;
 }
+.meny-navbar div {
+  width: 100px;
+}
+.meny-navbar-hem {
+  display: flex;
+  justify-content: center;
+}
 .meny-navbar-hem img {
   margin-bottom: 50px;
 }
+
 .meny-navbar a {
   list-style: none;
   text-decoration: none;
@@ -46,6 +54,9 @@
 .meny-navbar a:hover:after {
   width: 100%;
   left: 0;
+}
+.meny-navbar-hem a:after {
+  height: 0px !important;
 }
 
 .meny-navbar-smallscreen {

@@ -21,10 +21,10 @@ const Meny = () => {
           </a>
         </div>
         <div className="meny-navbar-tjänster">
-          <a href="/tjanster"> Våra Tjänster</a>
+          <a href="/tjanster">Tjänster</a>
         </div>
         <div className="meny-navbar-kontakt">
-          <a href="/kontakt"> Kontakt</a>
+          <a href="/kontakt">Kontakt</a>
         </div>
       </div>
       <div className="meny-navbar-smallscreen">

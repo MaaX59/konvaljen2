@@ -35,7 +35,9 @@ const våraTjänster = () => {
           </span>
         </div>
 
-        <button className="våraTjänster-button"> Läs mer!</button>
+        <Link to="/foretag">
+          <button className="våraTjänster-button"> Läs mer!</button>
+        </Link>
         <hr className="våraTjänster-linje"></hr>
       </div>
 
