@@ -1,6 +1,7 @@
 import { React, useEffect } from "react";
 import "./Begravning.css";
-import pic from "../../../pics/flower5.jpg";
+import pic from "../../../pics/kistdekoration.jpg";
+import krans from "../../../pics/krans.jpg";
 import funeral from "../../../pics/funeral.png";
 
 const Begravning = () => {
@@ -12,58 +13,77 @@ const Begravning = () => {
     <div className="begravning">
       <div className="begravning-title">
         <img src={funeral} alt="title" />
-        <h2>Kistdekorationer</h2>
       </div>
       <div className="gallery">
-        <div className="gallery-item">
-          <img src={pic} alt="awdawd" />
-          <h2> Color pallet</h2>
-          <span> 2300 kr</span>
+        <div className="gallery-title">
+          <h2>Kistdekorationer</h2>
         </div>
-        <div className="gallery-item">
-          <img src={pic} alt="awdawd" />
-          <h2> Color pallet</h2>
-          <span> 2300 kr</span>
+        <div className="gallery-items">
+          <div className="gallery-item">
+            <img src={pic} alt="awdawd" />
+            <h2> Color pallet</h2>
+            <span> 2300 kr</span>
+          </div>
+          <div className="gallery-item">
+            <img src={pic} alt="awdawd" />
+            <h2> Color pallet</h2>
+            <span> 2300 kr</span>
+          </div>
+          <div className="gallery-item">
+            <img src={pic} alt="awdawd" />
+            <h2> Color pallet</h2>
+            <span> 2300 kr</span>
+          </div>
+          <div className="gallery-item">
+            <img src={pic} alt="awdawd" />
+            <h2> Color pallet</h2>
+            <span> 2300 kr</span>
+          </div>
+          <div className="gallery-item">
+            <img src={pic} alt="awdawd" />
+            <h2> Color pallet</h2>
+            <span> 2300 kr</span>
+          </div>
+          <div className="gallery-item">
+            <img src={pic} alt="awdawd" />
+            <h2> Color pallet</h2>
+            <span> 2300 kr</span>
+          </div>
         </div>
-        <div className="gallery-item">
-          <img src={pic} alt="awdawd" />
-          <h2> Color pallet</h2>
-          <span> 2300 kr</span>
+        <div className="gallery-title">
+          <h2>Kistdekorationer</h2>
         </div>
-        <div className="gallery-item">
-          <img src={pic} alt="awdawd" />
-          <h2> Color pallet</h2>
-          <span> 2300 kr</span>
-        </div>
-        <div className="gallery-item">
-          <img src={pic} alt="awdawd" />
-          <h2> Color pallet</h2>
-          <span> 2300 kr</span>
-        </div>
-        <div className="gallery-item">
-          <img src={pic} alt="awdawd" />
-          <h2> Color pallet</h2>
-          <span> 2300 kr</span>
-        </div>
-        <div className="gallery-item">
-          <img src={pic} alt="awdawd" />
-          <h2> Color pallet</h2>
-          <span> 2300 kr</span>
-        </div>
-        <div className="gallery-item">
-          <img src={pic} alt="awdawd" />
-          <h2> Color pallet</h2>
-          <span> 2300 kr</span>
-        </div>
-        <div className="gallery-item">
-          <img src={pic} alt="awdawd" />
-          <h2> Color pallet</h2>
-          <span> 2300 kr</span>
-        </div>
-        <div className="gallery-item">
-          <img src={pic} alt="awdawd" />
-          <h2> Color pallet</h2>
-          <span> 2300 kr</span>
+        <div className="gallery-items">
+          <div className="gallery-item">
+            <img src={krans} alt="awdawd" />
+            <h2> Color pallet</h2>
+            <span> 2300 kr</span>
+          </div>
+          <div className="gallery-item">
+            <img src={krans} alt="awdawd" />
+            <h2> Color pallet</h2>
+            <span> 2300 kr</span>
+          </div>
+          <div className="gallery-item">
+            <img src={krans} alt="awdawd" />
+            <h2> Color pallet</h2>
+            <span> 2300 kr</span>
+          </div>
+          <div className="gallery-item">
+            <img src={krans} alt="awdawd" />
+            <h2> Color pallet</h2>
+            <span> 2300 kr</span>
+          </div>
+          <div className="gallery-item">
+            <img src={krans} alt="awdawd" />
+            <h2> Color pallet</h2>
+            <span> 2300 kr</span>
+          </div>
+          <div className="gallery-item">
+            <img src={krans} alt="awdawd" />
+            <h2> Color pallet</h2>
+            <span> 2300 kr</span>
+          </div>
         </div>
       </div>
     </div>

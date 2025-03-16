@@ -5,26 +5,38 @@
   justify-content: center;
   flex-direction: column;
 }
+
 .begravning-title {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   margin-top: 5rem;
-  font-family: "Cormorant Upright";
 }
+
 .begravning-title img {
   position: flex;
   justify-content: center;
   align-items: center;
   height: 300px;
-  width: 1500px;
+  width: 90vw;
   object-fit: cover;
 }
 .gallery {
+  display: flex;
+
+  flex-direction: column;
+}
+.gallery-title h2 {
+  font-family: "Cormorant Upright";
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+.gallery-items {
   flex-wrap: wrap;
   display: flex;
-  margin-top: 5rem;
+
   justify-content: space-evenly;
   width: 60vw;
   align-items: center;
@@ -51,16 +63,17 @@
 }
 
 @media screen and (max-width: 1200px) {
-  .gallery {
+  .gallery-items {
     width: 75vw;
   }
+
   .gallery-item img {
     width: 20vw;
     height: 20vw;
   }
 }
 @media screen and (max-width: 650px) {
-  .gallery {
+  .gallery-items {
     width: 80vw;
   }
   .gallery-item img {
