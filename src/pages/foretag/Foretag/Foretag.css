@@ -1,0 +1,61 @@
+.foretag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Cormorant Upright";
+}
+.foretag h2 {
+  font-size: 25px;
+}
+.foretag span {
+  font-size: 20px;
+}
+
+.foretag-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.foretag-title-pic img {
+  position: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 90vw;
+  object-fit: cover;
+  margin-top: 5rem;
+}
+.foretag-title-text {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  width: 800px;
+}
+.foretag-innehåll {
+  margin-top: 2rem;
+}
+.foretag-innehåll-grupp {
+  display: flex;
+  width: 1000px;
+  height: 500px;
+}
+.foretag-innehåll-grupp-bild img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}
+.foretag-innehåll-grupp-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 500px;
+  height: 500px;
+}
+.foretag-andratjanster {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}

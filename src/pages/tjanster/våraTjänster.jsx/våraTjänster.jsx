@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./våraTjänster.css";
 import bild from "../../../pics/Våra tjänster.png";
+import foretag1 from "../../../pics/foretag1.jpg";
+import funeral from "../../../pics/funeral.png";
 
 const våraTjänster = () => {
   return (
@@ -24,7 +26,7 @@ const våraTjänster = () => {
 
       <div className="våraTjänster-företag">
         <div className="våraTjänster-företag-bild">
-          <img src={bild} alt="bild" />
+          <img src={foretag1} alt="bild" />
         </div>
         <div className="våraTjänster-företag-text">
           <h2>Företag</h2>
@@ -43,7 +45,7 @@ const våraTjänster = () => {
 
       <div className="våraTjänster-begravning">
         <div className="våraTjänster-begravning-bild">
-          <img src={bild} alt="bild" />
+          <img src={funeral} alt="bild" />
         </div>
         <div className="våraTjänster-begravning-text">
           <h2>Begravning</h2>
