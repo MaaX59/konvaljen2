@@ -40,6 +40,7 @@
   display: flex;
   width: 1000px;
   height: 500px;
+  margin-bottom: 1rem;
 }
 .foretag-innehåll-grupp-bild img {
   width: 500px;
@@ -50,9 +51,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   text-align: center;
   width: 500px;
   height: 500px;
+}
+.foretag-innehåll-grupp-text h2 {
+  font-size: 25px;
+}
+.foretag-innehåll-grupp-text span {
+  font-size: 19px;
+  width: 450px;
 }
 .foretag-andratjanster {
   display: flex;

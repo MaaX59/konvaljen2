@@ -30,20 +30,26 @@ const Foretag = () => {
             <img src={foretag2} alt="företag 2" />
           </div>
           <div className="foretag-innehåll-grupp-text">
-            Förbättra ditt varumärkes image och lyft din arbetsyta med våra
-            fantastiska blomsterarrangemang. Oavsett om du inreder för ett
-            privat evenemang eller en företagsfest, är vårt utbud av färska
-            blommor designat för att imponera. För frågor vänligen kontakta oss
-            för att få ett mer skräddarsytt svar efter dina behov.
+            <h2> Title</h2>
+            <span>
+              Förbättra ditt varumärkes image och lyft din arbetsyta med våra
+              fantastiska blomsterarrangemang. Oavsett om du inreder för ett
+              privat evenemang eller en företagsfest, är vårt utbud av färska
+              blommor designat för att imponera. För frågor vänligen kontakta
+              oss för att få ett mer skräddarsytt svar efter dina behov.
+            </span>
           </div>
         </div>
         <div className="foretag-innehåll-grupp">
           <div className="foretag-innehåll-grupp-text">
-            Förbättra ditt varumärkes image och lyft din arbetsyta med våra
-            fantastiska blomsterarrangemang. Oavsett om du inreder för ett
-            privat evenemang eller en företagsfest, är vårt utbud av färska
-            blommor designat för att imponera. För frågor vänligen kontakta oss
-            för att få ett mer skräddarsytt svar efter dina behov.
+            <h2> Title</h2>
+            <span>
+              Förbättra ditt varumärkes image och lyft din arbetsyta med våra
+              fantastiska blomsterarrangemang. Oavsett om du inreder för ett
+              privat evenemang eller en företagsfest, är vårt utbud av färska
+              blommor designat för att imponera. För frågor vänligen kontakta
+              oss för att få ett mer skräddarsytt svar efter dina behov.
+            </span>
           </div>
           <div className="foretag-innehåll-grupp-bild">
             <img src={foretag3} alt="företag 2" />
@@ -54,11 +60,14 @@ const Foretag = () => {
             <img src={foretag2} alt="företag 2" />
           </div>
           <div className="foretag-innehåll-grupp-text">
-            Förbättra ditt varumärkes image och lyft din arbetsyta med våra
-            fantastiska blomsterarrangemang. Oavsett om du inreder för ett
-            privat evenemang eller en företagsfest, är vårt utbud av färska
-            blommor designat för att imponera. För frågor vänligen kontakta oss
-            för att få ett mer skräddarsytt svar efter dina behov.
+            <h2> Title</h2>
+            <span>
+              Förbättra ditt varumärkes image och lyft din arbetsyta med våra
+              fantastiska blomsterarrangemang. Oavsett om du inreder för ett
+              privat evenemang eller en företagsfest, är vårt utbud av färska
+              blommor designat för att imponera. För frågor vänligen kontakta
+              oss för att få ett mer skräddarsytt svar efter dina behov.
+            </span>
           </div>
         </div>
       </div>
