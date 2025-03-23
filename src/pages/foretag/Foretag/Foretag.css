@@ -5,12 +5,6 @@
   flex-direction: column;
   font-family: "Cormorant Upright";
 }
-.foretag h2 {
-  font-size: 25px;
-}
-.foretag span {
-  font-size: 20px;
-}
 
 .foretag-title {
   display: flex;
@@ -31,7 +25,13 @@
   display: flex;
   text-align: center;
   flex-direction: column;
-  width: 800px;
+  width: 70vw;
+}
+.foretag-title-text h2 {
+  font-size: 34px;
+}
+.foretag-title-text span {
+  font-size: 22px;
 }
 .foretag-innehåll {
   margin-top: 2rem;
@@ -57,14 +57,68 @@
   height: 500px;
 }
 .foretag-innehåll-grupp-text h2 {
-  font-size: 25px;
+  font-size: 28px;
 }
 .foretag-innehåll-grupp-text span {
-  font-size: 19px;
+  font-size: 22px;
   width: 450px;
 }
 .foretag-andratjanster {
   display: flex;
   flex-direction: column;
   text-align: center;
+  margin-bottom: 3rem;
+}
+.foretag-andratjanster h2 {
+  font-size: 28px;
+}
+.foretag-andratjanster span {
+  font-size: 22px;
+}
+
+@media screen and (max-width: 1020px) {
+  .foretag-innehåll-grupp {
+    display: flex;
+    width: 97vw;
+    height: 48vw;
+    margin-bottom: 1rem;
+  }
+  .foretag-innehåll-grupp-bild img {
+    width: 49vw;
+    height: 49vw;
+    object-fit: cover;
+  }
+  .foretag-innehåll-grupp-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 49vw;
+    height: 49vw;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  .foretag-innehåll-grupp-text h2 {
+    font-size: 23px;
+  }
+  .foretag-innehåll-grupp-text span {
+    font-size: 18px;
+    width: 48vw;
+  }
+}
+@media screen and (max-width: 1020px) {
+  .foretag-innehåll-grupp-text h2 {
+    font-size: 23px;
+  }
+  .foretag-innehåll-grupp-text span {
+    font-size: 18px;
+  }
+  .foretag-andratjanster h2 {
+    font-size: 23px;
+  }
+  .foretag-andratjanster span {
+    font-size: 18px;
+  }
 }

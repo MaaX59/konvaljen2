@@ -3,6 +3,8 @@ import "./Foretag.css";
 import foretag1 from "../../../pics/foretag1.jpg";
 import foretag2 from "../../../pics/företag2.jpg";
 import foretag3 from "../../../pics/företag3.png";
+import foretag4 from "../../../pics/foretag4.png";
+import foretag5 from "../../../pics/foretag5.jpg";
 
 const Foretag = () => {
   return (
@@ -16,9 +18,7 @@ const Foretag = () => {
           <span>
             Förbättra ditt varumärkes image och lyft din arbetsyta med våra
             fantastiska blomsterarrangemang.
-            <p /> Oavsett om du inreder för ett privat evenemang eller en
-            företagsfest, är vårt utbud av färska blommor designat för att
-            imponera. <p />
+            <p />
             För frågor vänligen kontakta oss för att få ett mer skräddarsytt
             svar efter dina behov.
           </span>
@@ -27,56 +27,66 @@ const Foretag = () => {
       <div className="foretag-innehåll">
         <div className="foretag-innehåll-grupp">
           <div className="foretag-innehåll-grupp-bild">
-            <img src={foretag2} alt="företag 2" />
-          </div>
-          <div className="foretag-innehåll-grupp-text">
-            <h2> Title</h2>
-            <span>
-              Förbättra ditt varumärkes image och lyft din arbetsyta med våra
-              fantastiska blomsterarrangemang. Oavsett om du inreder för ett
-              privat evenemang eller en företagsfest, är vårt utbud av färska
-              blommor designat för att imponera. För frågor vänligen kontakta
-              oss för att få ett mer skräddarsytt svar efter dina behov.
-            </span>
-          </div>
-        </div>
-        <div className="foretag-innehåll-grupp">
-          <div className="foretag-innehåll-grupp-text">
-            <h2> Title</h2>
-            <span>
-              Förbättra ditt varumärkes image och lyft din arbetsyta med våra
-              fantastiska blomsterarrangemang. Oavsett om du inreder för ett
-              privat evenemang eller en företagsfest, är vårt utbud av färska
-              blommor designat för att imponera. För frågor vänligen kontakta
-              oss för att få ett mer skräddarsytt svar efter dina behov.
-            </span>
-          </div>
-          <div className="foretag-innehåll-grupp-bild">
             <img src={foretag3} alt="företag 2" />
           </div>
+          <div className="foretag-innehåll-grupp-text">
+            <h2>Receptionsblommor</h2>
+            <span>
+              Vi levererar fräscha blommor till er, varje vecka!
+              <p /> Boka ett förutsättningslöst möte så gör vi en behovsanalys
+              och ett kostnadsförslag på plats..
+            </span>
+          </div>
         </div>
         <div className="foretag-innehåll-grupp">
+          <div className="foretag-innehåll-grupp-text">
+            <h2>Konferans & Event</h2>
+            <span>
+              Privat fest eller stort evenemang. Vi tar fasta på temat och
+              skapar unika arrangemang av säsongens blommor. Alltid smidigt,
+              diskret och av hög kvalitet.
+            </span>
+          </div>
           <div className="foretag-innehåll-grupp-bild">
             <img src={foretag2} alt="företag 2" />
           </div>
+        </div>
+        <div className="foretag-innehåll-grupp">
+          <div className="foretag-innehåll-grupp-bild">
+            <img src={foretag4} alt="företag 2" />
+          </div>
           <div className="foretag-innehåll-grupp-text">
-            <h2> Title</h2>
+            <h2>Blommor till anställda</h2>
             <span>
-              Förbättra ditt varumärkes image och lyft din arbetsyta med våra
-              fantastiska blomsterarrangemang. Oavsett om du inreder för ett
-              privat evenemang eller en företagsfest, är vårt utbud av färska
-              blommor designat för att imponera. För frågor vänligen kontakta
-              oss för att få ett mer skräddarsytt svar efter dina behov.
+              Genom en unik förmedlingsservice kan vi hjälpa er med blommor till
+              anställda på ett snabbt och smidigt sätt som också underlättar för
+              ekonomiavdelningen!.
             </span>
+          </div>
+        </div>
+        <div className="foretag-innehåll-grupp">
+          <div className="foretag-innehåll-grupp-text">
+            <h2>Lagbyggande Workshop</h2>
+            <span>
+              Teambuilding är en avgörande process för alla organisationer som
+              strävar efter framgång.
+              <p /> Genom teamutveckling kan företag inte bara förbättra
+              produktivitet och arbetsmoral, utan också skapa en mer
+              sammanhållen och motiverad arbetsstyrka.
+            </span>
+          </div>
+          <div className="foretag-innehåll-grupp-bild">
+            <img src={foretag5} alt="företag 2" />
           </div>
         </div>
       </div>
       <div className="foretag-andratjanster">
         <h2> Övriga tjänster</h2>
-        <span> awdawda awdawdawd</span>
-        <span> awdawda awdawdawd</span>
-        <span> awdawda awdawdawd</span>
-        <span> awdawda awdawdawd</span>
+        <span> Kontorsväxter</span>
+        <span> Entredekorationer</span>
+        <span> Scendekorationer</span>
+        <span> Julblommor</span>
+        <span> Utomhusplanteringar</span>
       </div>
     </div>
   );
