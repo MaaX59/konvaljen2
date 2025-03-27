@@ -47,60 +47,73 @@
 
 @media screen and (max-width: 1400px) {
   .welcome {
-    height: 900px;
+    flex-direction: column;
+    height: 1700px;
   }
   .welcome img {
-    width: 80px;
+    width: 70vw;
+    height: 90vw;
   }
   .welcome img:first-child {
     margin-top: 2rem;
   }
   .welcome-text {
-    width: 60vw;
+    width: 70vw;
     height: 900px;
+    flex-wrap: wrap;
   }
 }
 @media screen and (max-width: 1000px) {
   .welcome {
-    height: 1000px;
+    height: 1400px;
   }
 
   .welcome-text {
-    width: 70vw;
     height: 1000px;
   }
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .welcome {
-    height: 800px;
+    height: 1350px;
   }
   .welcome img {
-    width: 50px;
-  }
-  .welcome-text {
-    width: 70vw;
-    height: 800px;
-  }
-  .welcome-text h1 {
-    font-size: 33px;
-  }
-  .welcome-text h3 {
-    font-size: 20px;
-  }
-}
-@media screen and (max-width: 700px) {
-  .welcome {
-    height: 900px;
   }
 
+  .welcome-text h1 {
+    font-size: 30px;
+  }
+  .welcome-text h2 {
+    width: 444px;
+    font-size: 20px;
+  }
+  .welcome-text h3 {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .welcome {
+    height: 1200px;
+    margin-top: 2rem;
+  }
   .welcome-text {
-    width: 70vw;
-    height: 900px;
+    height: 800px;
+  }
+  .welcome-text h2 {
+    width: 400px;
+    font-size: 18px;
+  }
+  .welcome-text h3 {
+    font-size: 18px;
+  }
+  .welcome-text {
+    height: 800px;
+  }
+  .welcome-pic {
+    height: 50%;
   }
 }
 @media screen and (max-width: 500px) {
   .welcome {
-    height: 900px;
   }
   .welcome-text h1 {
     font-size: 30px;
