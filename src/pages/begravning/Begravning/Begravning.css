@@ -24,7 +24,8 @@
 }
 .gallery {
   display: flex;
-
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
 }
 .gallery-title h2 {

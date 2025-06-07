@@ -1,19 +1,19 @@
 import React from "react";
-import "./oss.css";
+import "./Oss.css";
 import bild from "../../../pics/bene med krans.jpg";
 
 const Oss = () => {
   return (
-    <div className="oss">
-      <div className="oss-title">
+    <div className="blommor">
+      <div className="blommor-title">
         <h2>Max & Benedicte</h2>
       </div>
-      <div className="oss-bild">
+      <div className="blommor-bild">
         <img src={bild} alt="oss1" />
         <img src={bild} alt="oss2" />
         <img src={bild} alt="oss3" />
       </div>
-      <div className="oss-text">
+      <div className="blommor-text">
         <h3>
           {" "}
           För de som inte redan kommit in och träffat oss, vi är de nya ägarna

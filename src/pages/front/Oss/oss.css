@@ -1,4 +1,4 @@
-.oss {
+.blommor {
   height: 1000px;
   display: flex;
   flex-direction: column;
@@ -6,7 +6,7 @@
   justify-content: space-around;
   text-align: center;
 }
-.oss-title {
+.blommor-title {
   height: 120px;
   width: 600px;
   font-family: "Cormorant Upright";
@@ -14,15 +14,15 @@
   font-size: 40px;
   border-bottom: 1px black solid;
 }
-.oss-bild {
+.blommor-bild {
   display: flex;
   width: 60%;
   justify-content: space-around;
 }
-.oss-bild img {
+.blommor-bild img {
   width: 25%;
 }
-.oss-text {
+.blommor-text {
   font-family: "Cormorant Upright";
   font-size: 20px;
   width: 70%;

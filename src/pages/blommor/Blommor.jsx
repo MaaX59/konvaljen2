@@ -1,16 +1,16 @@
 import React from "react";
 import Meny from "../front/meny/Meny";
-import OmOss from "./OmOss/OmOss";
+import Blommor from "./Blommor/Blommor";
 import Footer from "../front/footer/Footer";
 
-const about = () => {
+const blommor = () => {
   return (
     <div>
       <Meny />
-      <OmOss />
+      <Blommor />
       <Footer />
     </div>
   );
 };
 
-export default about;
+export default blommor;

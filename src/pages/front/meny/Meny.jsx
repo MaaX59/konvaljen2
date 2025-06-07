@@ -10,7 +10,7 @@ const Meny = () => {
     <div className="meny">
       <div className="meny-navbar">
         <div className="meny-navbar-oss">
-          <a href="/om-oss"> Om Oss</a>
+          <a href="/blommor"> Blommor</a>
         </div>
         <div>
           <a href="/workshop">Workshops</a>
