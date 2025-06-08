@@ -14,8 +14,22 @@ const Begravning = () => {
       <div className="begravning-title">
         <img src={funeral} alt="title" />
       </div>
+      <div className="begravning-links">
+        <li>
+          <a href="#kistdekorationer">Kistdekorationer</a>
+        </li>
+        <li>
+          <a href="#kransar">Kransar</a>
+        </li>
+        <li>
+          <a href="#kransar">Höga Dekorationer</a>
+        </li>
+        <li>
+          <a href="#kransar">kransar</a>
+        </li>
+      </div>
       <div className="gallery">
-        <div className="gallery-title">
+        <div className="gallery-title" id="kistdekorationer">
           <h2>Kistdekorationer</h2>
         </div>
         <div className="gallery-items">
@@ -50,8 +64,8 @@ const Begravning = () => {
             <span> 2300 kr</span>
           </div>
         </div>
-        <div className="gallery-title">
-          <h2>Kistdekorationer</h2>
+        <div className="gallery-title" id="kransar">
+          <h2>Kransar</h2>
         </div>
         <div className="gallery-items">
           <div className="gallery-item">

@@ -5,6 +5,11 @@
   height: 230px;
   background-color: var(--color-cream);
 }
+.footer-kontakt,
+.footer-tider,
+.footer-media {
+  width: 32%;
+}
 .footer-vector {
   display: none;
 }
@@ -23,6 +28,8 @@
 }
 .footer-media {
   color: var(--color-blue);
+  display: flex;
+  justify-content: center;
 }
 .footer-media :first-child {
   margin-right: 2rem;

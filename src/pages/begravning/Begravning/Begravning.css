@@ -22,6 +22,25 @@
   width: 90vw;
   object-fit: cover;
 }
+.begravning-links {
+  list-style: none;
+  display: flex;
+  width: 50vw;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.begravning-links a {
+  list-style: none;
+  text-decoration: none;
+  display: inline-block;
+  color: rgb(46, 46, 46);
+  font-size: 25px;
+  font-family: "Barlow Condensed";
+}
+.begravning-links a:hover {
+  color: #5e88fd;
+}
+
 .gallery {
   display: flex;
   justify-content: center;
@@ -39,7 +58,7 @@
   display: flex;
 
   justify-content: space-evenly;
-  width: 60vw;
+  width: 80vw;
   align-items: center;
 }
 .gallery-item {
