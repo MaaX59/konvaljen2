@@ -1,4 +1,4 @@
-.blommor {
+.blommors {
   width: 100%;
   display: flex;
   align-items: center;
@@ -11,7 +11,7 @@
   height: 40vh;
   width: 100%;
 }
-.blommor img {
+.blommors img {
   width: 100%;
   height: 40vh;
   object-fit: cover;
