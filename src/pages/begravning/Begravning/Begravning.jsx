@@ -1,8 +1,11 @@
 import { React, useEffect } from "react";
 import "./Begravning.css";
-import pic from "../../../pics/kistdekoration.jpg";
-import krans from "../../../pics/krans.jpg";
 import funeral from "../../../pics/funeral.png";
+import { Kistdekoration } from "../../../Gallery/Kistdekoration";
+import Gallery from "../../../Gallery/Gallery";
+import { Kransar } from "../../../Gallery/Kransar";
+import { Hjärtan } from "../../../Gallery/Hjärtan";
+import { Buketter } from "../../../Gallery/Buketter";
 
 const Begravning = () => {
   useEffect(() => {
@@ -22,82 +25,51 @@ const Begravning = () => {
           <a href="#kransar">Kransar</a>
         </li>
         <li>
-          <a href="#kransar">Höga Dekorationer</a>
+          <a href="#hjärtan">Hjärtan</a>
         </li>
         <li>
-          <a href="#kransar">kransar</a>
+          <a href="#Dekorationer">Dekorationer</a>
+        </li>
+
+        <li>
+          <a href="#Liggandebuketter">Liggande Buketter</a>
+        </li>
+        <li>
+          <a href="#Buketter">Buketter</a>
         </li>
       </div>
       <div className="gallery">
         <div className="gallery-title" id="kistdekorationer">
           <h2>Kistdekorationer</h2>
         </div>
-        <div className="gallery-items">
-          <div className="gallery-item">
-            <img src={pic} alt="awdawd" />
-            <h2> Color pallet</h2>
-            <span> 2300 kr</span>
-          </div>
-          <div className="gallery-item">
-            <img src={pic} alt="awdawd" />
-            <h2> Color pallet</h2>
-            <span> 2300 kr</span>
-          </div>
-          <div className="gallery-item">
-            <img src={pic} alt="awdawd" />
-            <h2> Color pallet</h2>
-            <span> 2300 kr</span>
-          </div>
-          <div className="gallery-item">
-            <img src={pic} alt="awdawd" />
-            <h2> Color pallet</h2>
-            <span> 2300 kr</span>
-          </div>
-          <div className="gallery-item">
-            <img src={pic} alt="awdawd" />
-            <h2> Color pallet</h2>
-            <span> 2300 kr</span>
-          </div>
-          <div className="gallery-item">
-            <img src={pic} alt="awdawd" />
-            <h2> Color pallet</h2>
-            <span> 2300 kr</span>
-          </div>
+        <div className="blommor-gallery-items">
+          {Kistdekoration.map((item, index) => (
+            <Gallery item={item} key={index} />
+          ))}
         </div>
         <div className="gallery-title" id="kransar">
           <h2>Kransar</h2>
         </div>
-        <div className="gallery-items">
-          <div className="gallery-item">
-            <img src={krans} alt="awdawd" />
-            <h2> Color pallet</h2>
-            <span> 2300 kr</span>
-          </div>
-          <div className="gallery-item">
-            <img src={krans} alt="awdawd" />
-            <h2> Color pallet</h2>
-            <span> 2300 kr</span>
-          </div>
-          <div className="gallery-item">
-            <img src={krans} alt="awdawd" />
-            <h2> Color pallet</h2>
-            <span> 2300 kr</span>
-          </div>
-          <div className="gallery-item">
-            <img src={krans} alt="awdawd" />
-            <h2> Color pallet</h2>
-            <span> 2300 kr</span>
-          </div>
-          <div className="gallery-item">
-            <img src={krans} alt="awdawd" />
-            <h2> Color pallet</h2>
-            <span> 2300 kr</span>
-          </div>
-          <div className="gallery-item">
-            <img src={krans} alt="awdawd" />
-            <h2> Color pallet</h2>
-            <span> 2300 kr</span>
-          </div>
+        <div className="blommor-gallery-items">
+          {Kransar.map((item, index) => (
+            <Gallery item={item} key={index} />
+          ))}
+        </div>
+        <div className="gallery-title" id="hjärtan">
+          <h2>Hjärtan</h2>
+        </div>
+        <div className="blommor-gallery-items">
+          {Hjärtan.map((item, index) => (
+            <Gallery item={item} key={index} />
+          ))}
+        </div>
+        <div className="gallery-title" id="buketter">
+          <h2>Buketter</h2>
+        </div>
+        <div className="blommor-gallery-items">
+          {Buketter.map((item, index) => (
+            <Gallery item={item} key={index} />
+          ))}
         </div>
       </div>
     </div>
