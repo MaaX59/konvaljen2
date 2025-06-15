@@ -19,7 +19,7 @@
   justify-content: center;
   align-items: center;
   height: 300px;
-  width: 90vw;
+  width: 97vw;
   object-fit: cover;
 }
 .begravning-links {
@@ -82,22 +82,29 @@
   font-size: 20px;
 }
 
-@media screen and (max-width: 1200px) {
-  .gallery-items {
-    width: 75vw;
+@media screen and (max-width: 900px) {
+  .begravning-links {
+    width: 80vw;
   }
-
-  .gallery-item img {
-    width: 20vw;
-    height: 20vw;
+  .begravning-links a {
+    font-size: 21px;
   }
 }
 @media screen and (max-width: 650px) {
-  .gallery-items {
-    width: 80vw;
+  .begravning-links a {
+    font-size: 18px;
   }
-  .gallery-item img {
-    width: 35vw;
-    height: 35vw;
+}
+@media screen and (max-width: 480px) {
+  .begravning-links {
+    width: 90vw;
+  }
+  .begravning-links a {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .begravning-links a {
+    font-size: 14px;
   }
 }

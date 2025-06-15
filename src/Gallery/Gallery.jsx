@@ -14,18 +14,10 @@ const Gallery = ({ item }) => {
         <span> {price}</span>
       </div>
       {fullImage && (
-        <div
-          className="gallerys-item-full"
-          class="fixed w-full h-full top-0 left-0 z-50 flex bg-opacity-60 items-center justify-center bg-black "
-          onClick={() => setFullImage()}
-        >
-          <img
-            src={fullImage}
-            alt="fullimage"
-            class="relative rounded-lg flex md:h-3/4 "
-          />
-          <div class="fixed top-5 right-10 text-white text-4xl cursor-pointer">
-            x
+        <div className="gallerys-item-full" onClick={() => setFullImage()}>
+          <img src={fullImage} alt="fullimage" />
+          <div className="gallerys-item-full-cross">
+            <h2>x</h2>
           </div>
         </div>
       )}
