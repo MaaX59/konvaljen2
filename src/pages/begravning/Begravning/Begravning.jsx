@@ -4,7 +4,7 @@ import funeral from "../../../pics/funeral.png";
 import { Kistdekoration } from "../../../Gallery/Kistdekoration";
 import Gallery from "../../../Gallery/Gallery";
 import { Kransar } from "../../../Gallery/Kransar";
-import { Hjärtan } from "../../../Gallery/Hjärtan";
+import { Dekorationer } from "../../../Gallery/Dekorationer";
 import { Buketter } from "../../../Gallery/Buketter";
 
 const Begravning = () => {
@@ -24,16 +24,11 @@ const Begravning = () => {
         <li>
           <a href="#kransar">Kransar</a>
         </li>
-        <li>
-          <a href="#hjärtan">Hjärtan</a>
-        </li>
-        <li>
-          <a href="#Dekorationer">Dekorationer</a>
-        </li>
 
         <li>
-          <a href="#Liggandebuketter">Liggande Buketter</a>
+          <a href="#dekorationer">Dekorationer</a>
         </li>
+
         <li>
           <a href="#Buketter">Buketter</a>
         </li>
@@ -55,14 +50,15 @@ const Begravning = () => {
             <Gallery item={item} key={index} />
           ))}
         </div>
-        <div className="gallery-title" id="hjärtan">
-          <h2>Hjärtan</h2>
+        <div className="gallery-title" id="dekorationer">
+          <h2>Dekorationer</h2>
         </div>
         <div className="blommor-gallery-items">
-          {Hjärtan.map((item, index) => (
+          {Dekorationer.map((item, index) => (
             <Gallery item={item} key={index} />
           ))}
         </div>
+
         <div className="gallery-title" id="buketter">
           <h2>Buketter</h2>
         </div>
