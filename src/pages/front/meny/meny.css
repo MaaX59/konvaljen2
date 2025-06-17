@@ -61,6 +61,12 @@
 
 .meny-navbar-smallscreen {
   display: none;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+}
+.meny-navbar-smallscreen img {
+  width: 18vh;
 }
 .meny-navbar-smallscreen-overlay {
   position: fixed;

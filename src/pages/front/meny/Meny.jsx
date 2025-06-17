@@ -28,6 +28,12 @@ const Meny = () => {
         </div>
       </div>
       <div className="meny-navbar-smallscreen">
+        <div></div>
+        <div>
+          <a href="/">
+            <img src={logo} alt="big logo" />
+          </a>
+        </div>
         <GiHamburgerMenu
           color="#3a4e5d"
           fontSize={50}
@@ -44,10 +50,11 @@ const Meny = () => {
             />
             <ul className="meny-navbar-smallscreen-links">
               <a href="/"> Hem</a>
+              <a href="/blommor"> Blommor</a>
 
-              <a href="/om-oss"> Om Oss</a>
+              <a href="/workshop">Workshops</a>
 
-              <a href="/tjanster"> Våra Tjänster</a>
+              <a href="/tjanster">Tjänster</a>
 
               <a href="/kontakt"> Kontakt</a>
             </ul>

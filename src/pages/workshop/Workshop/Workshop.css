@@ -1,0 +1,57 @@
+.workshop {
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+  height: 57vh;
+}
+.workshop-text {
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: "Cormorant Upright";
+}
+.workshop-text h2 {
+  font-size: 38px;
+  font-weight: 600;
+}
+.workshop-text span {
+  width: 70%;
+  font-size: 18px;
+}
+.workshop-bild {
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.workshop-bild img {
+  width: 37vw;
+  max-height: 450px;
+  object-fit: fill;
+}
+@media screen and (max-width: 900px) {
+  .workshop-bild img {
+    width: 45vw;
+  }
+}
+@media screen and (max-width: 760px) {
+  .workshop {
+    height: auto;
+    flex-direction: column-reverse;
+  }
+  .workshop-text {
+    width: 90vw;
+  }
+  .workshop-bild {
+    width: 95vw;
+  }
+  .workshop-bild img {
+    width: 85vw;
+    object-fit: fill;
+  }
+}

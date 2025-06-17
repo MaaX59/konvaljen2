@@ -11,7 +11,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-top: 5rem;
+  /* margin-top: 1rem; */
 }
 
 .begravning-title img {
@@ -22,6 +22,51 @@
   width: 97vw;
   object-fit: cover;
 }
+.begravning-text {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+.begravning-text h2 {
+  font-size: 40px;
+  font-family: "Cormorant Upright";
+  line-height: 10px;
+}
+.begravning-text span {
+  font-size: 32px;
+  font-family: "Cormorant Upright";
+  line-height: 15px;
+}
+.begravning-text span:last-child {
+  color: red;
+}
+.begravning-text h5 {
+  font-size: 26px;
+  font-weight: 100;
+  font-family: "Cormorant Upright";
+  line-height: 2px;
+}
+
+.begravning-linje {
+  width: 90vw;
+  border: none;
+  border-top: 3px double #333;
+  color: #333;
+  overflow: visible;
+  text-align: center;
+  height: 3px;
+}
+
+.begravning-linje::after {
+  background: #fff;
+  content: "§";
+  padding: 0 4px;
+  position: relative;
+  top: -13px;
+}
+
 .begravning-links {
   list-style: none;
   display: flex;
@@ -51,6 +96,7 @@
   font-family: "Cormorant Upright";
   display: flex;
   justify-content: center;
+  font-size: 35px;
   margin-top: 5rem;
 }
 .gallery-items {

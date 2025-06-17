@@ -8,6 +8,7 @@ import Begravning from "./pages/begravning/begravning.jsx";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Foretag from "./pages/foretag/foretag.jsx";
+import Workshop from "./pages/workshop/workshop.jsx";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/brollop" element={<Brollop />} />
         <Route path="/begravning" element={<Begravning />} />
         <Route path="/foretag" element={<Foretag />} />
+        <Route path="/workshop" element={<Workshop />} />
       </Routes>
     </BrowserRouter>
   );

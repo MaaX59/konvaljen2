@@ -5,6 +5,9 @@
   height: 230px;
   background-color: var(--color-cream);
 }
+.footer span {
+  text-align: center;
+}
 .footer-kontakt,
 .footer-tider,
 .footer-media {
@@ -45,9 +48,15 @@
   }
   .footer-kontakt,
   .footer-tider {
+    width: 50vw;
     display: flex;
     justify-content: space-around;
+    flex-direction: column;
     text-align: center;
+  }
+  .footer-media {
+    margin-top: 1rem;
+    width: 50vw;
   }
 }
 @media screen and (max-width: 500px) {

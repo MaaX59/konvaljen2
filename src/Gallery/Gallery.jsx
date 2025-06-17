@@ -10,8 +10,8 @@ const Gallery = ({ item }) => {
     <div classname="gallerys">
       <div className="gallerys-item" onClick={() => setFullImage(pic)}>
         <img src={pic} alt="awdawd" />
-        <h2> {name}</h2>
-        <span> {price}</span>
+        <h2>{name}</h2>
+        <span>{price}</span>
       </div>
       {fullImage && (
         <div className="gallerys-item-full" onClick={() => setFullImage()}>

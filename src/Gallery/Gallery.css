@@ -12,6 +12,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  text-align: center;
   margin-bottom: 4rem;
   border-radius: 5px;
   border-width: 1px;
@@ -26,12 +27,13 @@
 .gallerys-item h2 {
   font-family: "Cormorant Upright";
   line-height: 1px;
+  margin-bottom: 22px;
 }
 .gallerys-item span {
-  font-family: "Cormorant Upright";
   line-height: 5px;
+  font-family: "Times New Roman", Times, serif;
   color: var(--color-blue);
-  font-size: 20px;
+  font-size: 15px;
 }
 .gallerys-item-full {
   position: fixed;
@@ -48,7 +50,9 @@
 }
 .gallerys-item-full img {
   position: relative;
-  height: 80%;
+  display: flex;
+  height: 97%;
+  object-fit: contain;
 }
 .gallerys-item-full-cross h2 {
   position: fixed;
