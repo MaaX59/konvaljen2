@@ -3,7 +3,7 @@ import "./Blommor.css";
 import pic from "../../../pics/bouquet.jpg";
 import bukett from "../../../pics/Desktop Sommarblommor 2160x750.png";
 import Gallery from "../../../Gallery/Gallery";
-import { Kistdekoration } from "../../../Gallery/Kistdekoration";
+import { Buketter2 } from "../../../Gallery/Buketter2";
 
 const Blommor = () => {
   return (
@@ -25,7 +25,7 @@ const Blommor = () => {
         </h2>
       </div>
       <div className="blommor-gallery-items">
-        {Kistdekoration.map((item, index) => (
+        {Buketter2.map((item, index) => (
           <Gallery item={item} key={index} />
         ))}
       </div>

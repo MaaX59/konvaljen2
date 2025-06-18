@@ -27,3 +27,28 @@
 .vårbutik-andra-raden img {
   width: 25%;
 }
+@media screen and (max-width: 950px) {
+  .vårbutik-första-raden {
+    height: 34vh;
+  }
+  .vårbutik-andra-raden {
+    height: 28vh;
+  }
+  .vårbutik-text {
+    height: 14vh;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 445px) {
+  .vårbutik-första-raden {
+    height: 20vh;
+  }
+  .vårbutik-andra-raden {
+    height: 18vh;
+  }
+  .vårbutik-text {
+    height: 10vh;
+    font-size: 16px;
+  }
+}

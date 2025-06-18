@@ -4,16 +4,16 @@ import bild from "../../../pics/bene med krans.jpg";
 
 const Oss = () => {
   return (
-    <div className="blommor">
-      <div className="blommor-title">
+    <div className="oss">
+      <div className="oss-title">
         <h2>Max & Benedicte</h2>
       </div>
-      <div className="blommor-bild">
+      <div className="oss-bild">
         <img src={bild} alt="oss1" />
         <img src={bild} alt="oss2" />
         <img src={bild} alt="oss3" />
       </div>
-      <div className="blommor-text">
+      <div className="oss-text">
         <h3>
           {" "}
           För de som inte redan kommit in och träffat oss, vi är de nya ägarna

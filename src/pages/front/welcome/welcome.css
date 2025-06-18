@@ -112,17 +112,22 @@
     height: 50%;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 440px) {
   .welcome {
+    height: 900px;
   }
   .welcome-text h1 {
-    font-size: 30px;
+    font-size: 25px;
+  }
+  .welcome-text h2 {
+    font-size: 14px;
+    width: 310px;
   }
   .welcome-text h3 {
-    font-size: 18px;
+    font-size: 14px;
   }
   .welcome-text {
-    width: 70vw;
+    width: 90vw;
     height: 900px;
   }
 }

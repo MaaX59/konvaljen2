@@ -1,4 +1,4 @@
-.blommor {
+.oss {
   height: 1000px;
   display: flex;
   flex-direction: column;
@@ -6,7 +6,7 @@
   justify-content: space-around;
   text-align: center;
 }
-.blommor-title {
+.oss-title {
   height: 120px;
   width: 600px;
   font-family: "Cormorant Upright";
@@ -14,16 +14,39 @@
   font-size: 40px;
   border-bottom: 1px black solid;
 }
-.blommor-bild {
+.oss-bild {
   display: flex;
   width: 60%;
   justify-content: space-around;
 }
-.blommor-bild img {
+.oss-bild img {
   width: 25%;
 }
-.blommor-text {
+.oss-text {
   font-family: "Cormorant Upright";
   font-size: 20px;
   width: 70%;
+}
+@media screen and (max-width: 640px) {
+  .oss {
+    height: 1000px;
+  }
+  .oss-title {
+    height: 120px;
+    width: 90vw;
+  }
+  .oss-title {
+    height: 90px;
+    width: 90vw;
+
+    font-size: 30px;
+  }
+  .oss-bild {
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+  }
+  .oss-bild img {
+    width: 25%;
+  }
 }
