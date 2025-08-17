@@ -17,7 +17,7 @@ const Workshop = () => {
           en trevlig stund med andra likasinnade personer.
           <p />
           Allt material ingår och under kvällen bjuds det även på fika. Och
-          självklart tar du det du skapat med dig hem!{" "}
+          självklart tar du med dig det du skapat hem!{" "}
         </span>
       </div>
       <div className="workshop-bild">

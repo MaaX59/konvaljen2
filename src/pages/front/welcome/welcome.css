@@ -18,7 +18,7 @@
   display: flex;
   text-align: left;
   justify-content: center;
-  font-family: "Cormorant Upright";
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .welcome-text h1 {
   font-size: 34px;
@@ -27,13 +27,15 @@
 }
 .welcome-text h2 {
   color: var(--color-blue);
-  font-size: 28px;
+  font-size: 26px;
+  font-weight: 100;
   margin-top: 2px;
   width: 620px;
   border-bottom: 1px solid black;
 }
 .welcome-text h3 {
   font-size: 22px;
+  font-weight: 100;
   margin-right: 2rem;
 }
 .welcome-pic {
@@ -76,15 +78,14 @@
   .welcome {
     height: 1350px;
   }
-  .welcome img {
-  }
 
   .welcome-text h1 {
     font-size: 30px;
   }
   .welcome-text h2 {
     width: 444px;
-    font-size: 20px;
+    font-size: 19px;
+    border-bottom: none;
   }
   .welcome-text h3 {
     font-size: 18px;
@@ -99,11 +100,11 @@
     height: 800px;
   }
   .welcome-text h2 {
-    width: 400px;
-    font-size: 18px;
+    width: 70vw;
+    font-size: 17px;
   }
   .welcome-text h3 {
-    font-size: 18px;
+    font-size: 17px;
   }
   .welcome-text {
     height: 800px;

@@ -13,7 +13,7 @@ const Blommor = () => {
         <div className="blommor-head-text">
           <span>
             Varje bukett är unik <p /> Varje blomma är säsongsberoende
-            <p /> Varje människa gillar olika saker{" "}
+            <p /> Varje människa har preferenser{" "}
           </span>
         </div>
       </div>
