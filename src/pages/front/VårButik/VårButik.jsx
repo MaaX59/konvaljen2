@@ -13,8 +13,9 @@ const VårButik = () => {
     <div className="vårbutik">
       <div className="vårbutik-första-raden">
         <img src={shop1} alt="asd" />
-        <img src={shop2} alt="asd" />
+
         <img src={shop3} alt="asd" />
+        <img src={shop2} alt="asd" />
       </div>
       <div className="vårbutik-text">
         <h1>VÅR NYA BUTIK</h1>

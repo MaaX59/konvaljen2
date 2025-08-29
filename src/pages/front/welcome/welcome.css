@@ -23,10 +23,10 @@
 .welcome-text h1 {
   font-size: 34px;
   line-height: 0;
-  color: var(--color-blue);
+  color: var(--color-blueblack);
 }
 .welcome-text h2 {
-  color: var(--color-blue);
+  color: var(--color-blueblack);
   font-size: 26px;
   font-weight: 100;
   margin-top: 2px;
@@ -37,6 +37,8 @@
   font-size: 22px;
   font-weight: 100;
   margin-right: 2rem;
+  text-align: justify;
+  text-justify: inter-word;
 }
 .welcome-pic {
   height: 70%;

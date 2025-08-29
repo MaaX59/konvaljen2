@@ -1,6 +1,6 @@
 import React from "react";
 import "./welcome.css";
-import double from "../../../pics/double.jpg";
+import double from "../../../pics/double2.jpg";
 
 const Welcome = () => {
   return (

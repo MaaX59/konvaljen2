@@ -1,6 +1,6 @@
 import React from "react";
 import "./bukett.css";
-import bukett from "../../../pics/ny bukett.png";
+import bukett from "../../../pics/bukett5.jpg";
 
 const Bukett = () => {
   return (
@@ -25,7 +25,7 @@ const Bukett = () => {
           </h4>
         </div>
         <div className="bukett-text-button">
-          <a href="/bestall"> Beställ</a>
+          <a href="/blommor"> Beställ</a>
         </div>
       </div>
 

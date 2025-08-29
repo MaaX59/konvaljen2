@@ -1,6 +1,8 @@
 import React from "react";
 import "./Oss.css";
-import bild from "../../../pics/bene med krans.jpg";
+import bild from "../../../pics/max.png";
+import bild2 from "../../../pics/bebe.png";
+import bild3 from "../../../pics/oss.png";
 
 const Oss = () => {
   return (
@@ -10,8 +12,8 @@ const Oss = () => {
       </div>
       <div className="oss-bild">
         <img src={bild} alt="oss1" />
-        <img src={bild} alt="oss2" />
-        <img src={bild} alt="oss3" />
+        <img src={bild3} alt="oss2" />
+        <img src={bild2} alt="oss3" />
       </div>
       <div className="oss-text">
         <h3>

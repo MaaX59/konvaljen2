@@ -9,7 +9,8 @@
 .oss-title {
   height: 120px;
   width: 600px;
-  font-family: "Cormorant Upright";
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
   color: var(--color-blue);
   font-size: 40px;
   border-bottom: 1px black solid;
@@ -24,9 +25,11 @@
 }
 .oss-text {
   font-family: "Cormorant Upright";
+
   font-size: 20px;
   width: 70%;
 }
+
 @media screen and (max-width: 640px) {
   .oss {
     height: 1000px;
