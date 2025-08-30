@@ -6,7 +6,8 @@
   flex-direction: column;
 }
 .bröllop-title {
-  font-family: "Cormorant Upright";
+  font-family: "Libertinus Serif Display";
+  font-weight: 100;
   font-size: 20px;
 }
 .bröllop-pics {
@@ -23,6 +24,7 @@
 .bröllop-text {
   width: 60vw;
   text-align: center;
-  font-family: "Cormorant Upright";
+  font-family: "Libertinus Serif Display";
+  font-weight: 100;
   font-size: 20px;
 }

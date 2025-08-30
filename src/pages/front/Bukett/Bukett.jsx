@@ -13,15 +13,12 @@ const Bukett = () => {
         <div className="bukett-text-text">
           {" "}
           <h4>
-            Vous pouvez désormais commander des bouquets sur notre site, pour
-            vous faire livrer, pour offrir ou encore les récupérer en magasin.{" "}
-            <p />
-            Commandez des bouquets frais et uniques qui évoluent avec les
-            saisons. Notre service de commande de fleurs met en valeur la
-            variété et la beauté naturelle des fleurs disponibles à chaque
-            période de l'année. Décrivez nous vos envies, la taille du bouquet
-            souhaité, le type (champêtre ou classique) ou encore l'occasion,
-            nous nous occupons du reste !{" "}
+            Beställ färska och unika buketter som förändras med årstiderna. Våra
+            blommor visar upp variationen och den naturliga skönheten hos
+            blommor som finns tillgängliga året runt. Beskriv dina önskemål,
+            storleken på buketten du vill ha, stilen (rustik eller klassisk)
+            eller tillfället – så tar vi hand om resten!
+            <p /> Beställningar sker via telefon, sms eller email.
           </h4>
         </div>
         <div className="bukett-text-button">

@@ -8,7 +8,7 @@ const Oss = () => {
   return (
     <div className="oss">
       <div className="oss-title">
-        <h2>Max & Benedicte</h2>
+        <h2>Om oss</h2>
       </div>
       <div className="oss-bild">
         <img src={bild} alt="oss1" />

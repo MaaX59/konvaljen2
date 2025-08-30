@@ -22,7 +22,8 @@
 .våraTjänster-bröllop-text h2,
 .våraTjänster-företag-text h2,
 .våraTjänster-begravning-text h2 {
-  font-family: "Cormorant Upright";
+  font-family: "Libertinus Serif Display";
+  font-weight: 100;
   font-size: 45px;
   text-align: center;
 }
@@ -30,7 +31,8 @@
 .våraTjänster-företag-text span,
 .våraTjänster-begravning-text span {
   margin: 0 1rem 1rem 3rem;
-  font-family: "Cormorant Upright";
+  font-family: "Libertinus Serif Display";
+  font-weight: 100;
   width: 60vw;
   font-size: 27px;
 
@@ -73,7 +75,8 @@
 .våraTjänster-button {
   border: solid 1px black;
   border-radius: 3px;
-  font-family: "Cormorant Upright";
+  font-family: "Libertinus Serif Display";
+  font-weight: 100;
   font-size: 25px;
   height: 50px;
   width: 120px;
@@ -178,7 +181,8 @@
   .våraTjänster-företag-text span,
   .våraTjänster-begravning-text span {
     margin: 0 1rem 1rem 1rem;
-    font-family: "Cormorant Upright";
+    font-family: "Libertinus Serif Display";
+    font-weight: 100;
     width: 75vw;
     font-size: 18px;
   }

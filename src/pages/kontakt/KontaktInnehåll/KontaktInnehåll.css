@@ -30,11 +30,13 @@
   margin-left: 5rem;
   font-size: 40px;
   color: var(--color-cream);
-  font-family: "Cormorant";
+  font-family: "Libertinus Serif Display";
+  font-weight: 100;
 }
 
 .KontaktInnehåll-text span {
-  font-family: "Cormorant upright";
+  font-family: "Libertinus Serif Display";
+  font-weight: 100;
 
   width: 37vw;
   font-size: 28px;

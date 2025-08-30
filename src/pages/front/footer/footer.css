@@ -17,13 +17,15 @@
   display: none;
 }
 .footer-title {
-  font-family: "Cormorant Upright";
+  font-family: "Libertinus Serif Display";
+  font-weight: 100;
   font-size: 26px;
   color: rgb(98, 83, 1);
 }
 .footer-kontakt,
 .footer-tider {
-  font-family: "Cormorant Upright";
+  font-family: "Libertinus Serif Display";
+  font-weight: 100;
   font-size: 22px;
   font-weight: 600;
   color: rgb(21, 1, 87);
@@ -40,7 +42,7 @@
 
 @media screen and (max-width: 800px) {
   .footer {
-    height: 500px;
+    height: 400px;
     flex-direction: column;
   }
   .footer-vector {

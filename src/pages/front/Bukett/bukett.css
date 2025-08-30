@@ -7,23 +7,39 @@
 .bukett-text {
   width: 30vw;
   margin-right: 2rem;
-  font-family: "Cormorant Upright";
+  font-family: "Libertinus Serif Display";
+  font-weight: 100;
 }
 .bukett-text h1 {
-  font-size: 70px;
+  font-size: 40px;
+  font-weight: 100;
   text-align: center;
 }
 .bukett-text h4 {
+  font-weight: 100;
   font-size: 20px;
 }
 .bukett-text-button {
   display: flex;
   justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 40px;
+  border: 2px solid rgb(180, 170, 170);
   margin-top: 5rem;
 }
+.bukett-text-button:hover {
+  border: 2px solid rgb(151, 146, 146);
+}
 .bukett-text-button a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-decoration: none;
-
+  color: black;
+  font-size: 27px;
+  font-family: "Libertinus Serif Display";
+  font-weight: 100;
   width: 80%;
 }
 .bukett-bild img {
