@@ -5,7 +5,7 @@ import { FaInstagram } from "react-icons/fa";
 import vector from "../../../pics/vactor.png";
 const Footer = () => {
   return (
-    <div className="footer">
+    <div id="footer" className="footer">
       <div className="footer-kontakt">
         <h2 className="footer-title">Kontakt</h2>
         <span>

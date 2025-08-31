@@ -41,8 +41,9 @@
   font-weight: 100;
   line-height: 15px;
 }
-.begravning-text span:last-child {
+.begravning-text a {
   color: red;
+  text-decoration: underline;
 }
 .begravning-text h5 {
   font-size: 26px;

@@ -40,9 +40,20 @@
   font-family: "Libertinus Serif Display";
   font-weight: 100;
   font-size: 35px;
-  text-shadow: 5px;
-  font-weight: 600;
+  margin-top: 4rem;
   color: rgb(0, 0, 0);
+}
+.blommor-title-text-andra {
+  font-family: "Libertinus Serif Display";
+  font-weight: 100;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 4rem;
+  color: rgb(0, 0, 0);
+}
+.blommor-title-text-andra a {
+  text-decoration: underline;
+  color: rgb(189, 11, 11);
 }
 .blommor-gallery {
   display: flex;

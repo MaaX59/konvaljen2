@@ -23,6 +23,9 @@ const Blommor = () => {
           Letar du efter buketter i Trollhättan? Vi erbjuder det rätta för varje
           tillfälle.
         </h2>
+        <h3 className="blommor-title-text-andra">
+          Beställningar sker via <a href="#footer">telefon eller email</a>.
+        </h3>
       </div>
       <div className="blommor-gallery-items">
         {Buketter2.map((item, index) => (

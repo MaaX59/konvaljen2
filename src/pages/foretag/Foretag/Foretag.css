@@ -27,6 +27,7 @@
   text-align: center;
   flex-direction: column;
   width: 70vw;
+  margin-bottom: 4rem;
 }
 .foretag-title-text h2 {
   font-size: 34px;

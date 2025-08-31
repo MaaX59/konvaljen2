@@ -21,8 +21,8 @@ const Begravning = () => {
         <h2>Begravnings blommor</h2>
         <span>
           {" "}
-          Vi levererar till hela trestad, <span>beställningar </span>via email
-          eller sms
+          Vi levererar till hela trestad, beställningar via{" "}
+          <a href="#footer">email eller sms</a>
         </span>
 
         <h5>
