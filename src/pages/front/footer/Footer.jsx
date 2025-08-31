@@ -1,5 +1,6 @@
 import React from "react";
 import "./footer.css";
+import { Link } from "react-router-dom";
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import vector from "../../../pics/vactor.png";
@@ -27,8 +28,13 @@ const Footer = () => {
         </span>
       </div>
       <div className="footer-media">
-        <FaFacebook size={35} />
-        <FaInstagram size={35} />
+        <Link to="https://www.facebook.com/share/1A8QeYi52S/">
+          <FaFacebook size={35} />{" "}
+        </Link>
+        <Link to="https://www.instagram.com/konvaljen.trollhattan/">
+          {" "}
+          <FaInstagram size={35} />{" "}
+        </Link>
       </div>
     </div>
   );
