@@ -45,3 +45,19 @@
 .bukett-bild img {
   width: 30vw;
 }
+@media screen and (max-width: 950px) {
+  .bukett {
+    flex-direction: column-reverse;
+    height: 120vh;
+  }
+  .bukett-bild img {
+    width: 70vw;
+  }
+  .bukett-text {
+    width: 80vw;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 445px) {
+}

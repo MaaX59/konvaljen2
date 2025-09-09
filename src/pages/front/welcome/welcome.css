@@ -90,12 +90,12 @@
     border-bottom: none;
   }
   .welcome-text h3 {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 @media screen and (max-width: 560px) {
   .welcome {
-    height: 1200px;
+    height: 1300px;
     margin-top: 2rem;
   }
   .welcome-text {
@@ -103,10 +103,10 @@
   }
   .welcome-text h2 {
     width: 70vw;
-    font-size: 17px;
+    font-size: 20px;
   }
   .welcome-text h3 {
-    font-size: 17px;
+    font-size: 20px;
   }
   .welcome-text {
     height: 800px;
@@ -117,17 +117,17 @@
 }
 @media screen and (max-width: 440px) {
   .welcome {
-    height: 900px;
+    height: 1250px;
   }
   .welcome-text h1 {
     font-size: 25px;
   }
   .welcome-text h2 {
-    font-size: 14px;
+    font-size: 20px;
     width: 310px;
   }
   .welcome-text h3 {
-    font-size: 14px;
+    font-size: 20px;
   }
   .welcome-text {
     width: 90vw;

@@ -15,9 +15,9 @@ const Bukett = () => {
           <h4>
             Beställ färska och unika buketter som förändras med årstiderna. Våra
             blommor visar upp variationen och den naturliga skönheten hos
-            blommor som finns tillgängliga året runt. Beskriv dina önskemål,
-            storleken på buketten du vill ha, stilen (rustik eller klassisk)
-            eller tillfället – så tar vi hand om resten!
+            blommor som finns tillgängliga året runt. <p />
+            Beskriv dina önskemål, storleken på buketten du vill ha, stilen
+            (rustik eller klassisk) eller tillfället – så tar vi hand om resten!
             <p /> Beställningar sker via telefon, sms eller email.
           </h4>
         </div>
