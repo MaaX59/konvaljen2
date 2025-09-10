@@ -135,13 +135,26 @@
   color: var(--color-blue);
   font-size: 20px;
 }
-
+@media screen and (max-width: 1120px) {
+  .begravning-text h5 {
+    text-align: center;
+    line-height: normal;
+  }
+  .begravning-text span {
+    text-align: center;
+    line-height: normal;
+  }
+}
 @media screen and (max-width: 900px) {
   .begravning-links {
     width: 80vw;
   }
   .begravning-links a {
     font-size: 21px;
+  }
+  .begravning-text span {
+    text-align: center;
+    line-height: normal;
   }
 }
 @media screen and (max-width: 650px) {
@@ -155,6 +168,16 @@
   }
   .begravning-links a {
     font-size: 15px;
+  }
+  .begravning-text h2 {
+    font-size: 29px;
+  }
+
+  .begravning-text span {
+    font-size: 20px;
+  }
+  .begravning-text h5 {
+    font-size: 20px;
   }
 }
 @media screen and (max-width: 380px) {

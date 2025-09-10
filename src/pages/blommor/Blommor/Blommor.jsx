@@ -12,8 +12,9 @@ const Blommor = () => {
         <img src={bukett} alt="bukett" />
         <div className="blommor-head-text">
           <span>
-            Varje bukett är unik <p /> Varje blomma är säsongsberoende
-            <p /> Varje människa har preferenser{" "}
+            {" "}
+            Varje människa är unik <p />
+            Varje blomma är säsongsberoende
           </span>
         </div>
       </div>

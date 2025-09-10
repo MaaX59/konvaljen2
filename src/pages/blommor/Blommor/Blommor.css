@@ -137,8 +137,10 @@
   .blommor {
     height: 1650px;
   }
+
   .blommor-title-text {
     font-size: 25px;
+    text-align: center;
   }
   .blommor-head-text {
     left: 30%;
@@ -165,10 +167,30 @@
   }
 }
 @media screen and (max-width: 488px) {
-  .blommor-title-text {
-    text-align: center;
+  .blommor-head-text {
+    margin-left: 1rem;
   }
   .blommor-head-text span {
-    font-size: 15px;
+    font-size: 20px;
+  }
+  .blommor-title-text {
+    font-size: 20px;
+  }
+  .blommor-title-text-andra {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .blommor-head-text {
+    margin-left: 1rem;
+  }
+  .blommor-head-text span {
+    font-size: 20px;
+  }
+  .blommor-title-text {
+    font-size: 20px;
+  }
+  .blommor-title-text-andra {
+    font-size: 20px;
   }
 }
