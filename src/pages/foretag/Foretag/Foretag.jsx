@@ -68,11 +68,9 @@ const Foretag = () => {
           <div className="foretag-innehåll-grupp-text">
             <h2>Lagbyggande Workshop</h2>
             <span>
-              Teambuilding är en avgörande process för alla organisationer som
-              strävar efter framgång.
-              <p /> Genom teamutveckling kan företag inte bara förbättra
-              produktivitet och arbetsmoral, utan också skapa en mer
-              sammanhållen och motiverad arbetsstyrka.
+              Genom teamutveckling kan företag inte bara förbättra produktivitet
+              och arbetsmoral, utan också skapa en mer sammanhållen och
+              motiverad arbetsstyrka.
             </span>
           </div>
           <div className="foretag-innehåll-grupp-bild">

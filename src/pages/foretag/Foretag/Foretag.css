@@ -126,3 +126,20 @@
     font-size: 18px;
   }
 }
+@media screen and (max-width: 550px) {
+  .foretag-innehåll-grupp-text h2 {
+    font-size: 20px;
+  }
+  .foretag-innehåll-grupp-text span {
+    font-size: 16px;
+  }
+  .foretag-andratjanster h2 {
+    font-size: 20px;
+  }
+  .foretag-andratjanster span {
+    font-size: 16px;
+  }
+  .foretag-innehåll-grupp {
+    height: 50vw;
+  }
+}
