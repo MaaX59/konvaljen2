@@ -28,13 +28,14 @@ const Meny = () => {
         </div>
       </div>
       <div className="meny-navbar-smallscreen">
-        <div></div>
-        <div>
+        <div className="meny-navbar-smallscreen-first"></div>
+        <div className="meny-navbar-smallscreen-second">
           <a href="/">
             <img src={logo} alt="big logo" />
           </a>
         </div>
         <GiHamburgerMenu
+          className="meny-navbar-smallscreen-third"
           color="#3a4e5d"
           fontSize={50}
           onClick={() => setToggleMenu(true)}

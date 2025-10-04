@@ -65,6 +65,17 @@
   align-items: center;
   width: 100vw;
 }
+.meny-navbar-smallscreen-first {
+  width: 33%;
+}
+.meny-navbar-smallscreen-second {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+}
+.meny-navbar-smallscreen-third {
+  width: 33%;
+}
 .meny-navbar-smallscreen img {
   width: 18vh;
 }
@@ -84,12 +95,14 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  text-align: center;
   height: 100vh;
 }
 .meny-navbar-smallscreen-links a {
   text-decoration: none;
   color: var(--color-cream);
   font-size: 30px;
+  margin-right: 1rem;
 }
 .meny-navbar-smallscreen-links a:hover {
   color: white;

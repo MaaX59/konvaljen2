@@ -1,7 +1,7 @@
 import React from "react";
-import bröllop1 from "../../../pics/bröllop1.jpg";
-import bröllop2 from "../../../pics/bröllop2.jpg";
-import bröllop3 from "../../../pics/bröllop3.jpg";
+import brollop1 from "../../../pics/brollop1.jpg";
+import brollop2 from "../../../pics/brollop2.jpg";
+import brollop3 from "../../../pics/brollop3.jpg";
 import { Link } from "react-router-dom";
 import "./Brollop.css";
 
@@ -13,9 +13,9 @@ const Brollop = () => {
         <h2>Bröllop</h2>{" "}
       </div>
       <div className="bröllop-pics">
-        <img src={bröllop1} alt="bröllop1" />
-        <img src={bröllop3} alt="bröllop2" />
-        <img src={bröllop2} alt="bröllop3" />
+        <img src={brollop1} alt="bröllop1" />
+        <img src={brollop3} alt="bröllop2" />
+        <img src={brollop2} alt="bröllop3" />
       </div>
       <div className="bröllop-text">
         <span>
