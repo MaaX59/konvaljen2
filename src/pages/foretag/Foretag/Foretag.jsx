@@ -1,8 +1,8 @@
 import React from "react";
 import "./Foretag.css";
 import foretag1 from "../../../pics/foretag1.jpg";
-import foretag2 from "../../../pics/företag2.jpg";
-import foretag3 from "../../../pics/företag3.png";
+import foretag2 from "../../../pics/foretag2.jpg";
+import foretag3 from "../../../pics/foretag3.png";
 import foretag4 from "../../../pics/foretag4.png";
 import foretag5 from "../../../pics/foretag5.jpg";
 

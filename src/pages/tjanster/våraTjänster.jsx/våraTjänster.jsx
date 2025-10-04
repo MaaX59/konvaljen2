@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./våraTjänster.css";
-import bild from "../../../pics/Våra tjänster.png";
+import wedding from "../../../pics/wedding.jpg";
 import foretag1 from "../../../pics/foretag1.jpg";
 import funeral from "../../../pics/funeral.png";
 
@@ -10,7 +10,7 @@ const våraTjänster = () => {
     <div className="våraTjänster">
       <div className="våraTjänster-bröllop">
         <div className="våraTjänster-bröllop-bild">
-          <img src={bild} alt="bild" />
+          <img src={wedding} alt="bröllop" />
         </div>
         <div className="våraTjänster-bröllop-text">
           <h2>Bröllop</h2>

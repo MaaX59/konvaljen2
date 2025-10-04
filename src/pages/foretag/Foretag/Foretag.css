@@ -113,6 +113,10 @@
   }
 }
 @media screen and (max-width: 1020px) {
+  .foretag-title-text {
+    margin-bottom: 1rem;
+    width: 90vw;
+  }
   .foretag-innehåll-grupp-text h2 {
     font-size: 23px;
   }
