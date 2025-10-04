@@ -146,6 +146,14 @@
     left: 30%;
   }
 }
+@media screen and (max-width: 800px) {
+  .blommor-title-text {
+    font-size: 20px;
+  }
+  .blommor-head-text span {
+    font-size: 25px;
+  }
+}
 
 @media screen and (max-width: 760px) {
   .blommor {
@@ -182,10 +190,27 @@
 }
 @media screen and (max-width: 430px) {
   .blommor-head-text {
-    margin-left: 1rem;
+    margin-left: 2rem;
   }
   .blommor-head-text span {
     font-size: 20px;
+  }
+  .blommor-title-text {
+    font-size: 20px;
+  }
+  .blommor-title-text-andra {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .blommor-head-text {
+    margin-left: 4rem;
+    margin-bottom: 7rem;
+  }
+  .blommor-head-text span {
+    font-size: 20px;
+
+    margin-bottom: 3rem;
   }
   .blommor-title-text {
     font-size: 20px;

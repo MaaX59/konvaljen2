@@ -1,7 +1,7 @@
 import React from "react";
-import brollop1 from "../../../pics/brollop1.jpg";
-import brollop2 from "../../../pics/brollop2.jpg";
-import brollop3 from "../../../pics/brollop3.jpg";
+import brollop1 from "../../../pics/wedding1.jpg";
+import brollop2 from "../../../pics/wedding2.jpg";
+import brollop3 from "../../../pics/wedding3.jpg";
 import { Link } from "react-router-dom";
 import "./Brollop.css";
 
