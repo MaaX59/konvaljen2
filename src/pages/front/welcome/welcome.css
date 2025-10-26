@@ -48,15 +48,24 @@
 .welcome-pic img {
   height: 100%;
 }
-
+@media screen and (max-width: 1700px) {
+  .welcome {
+    flex-direction: column;
+    height: 1700px;
+  }
+  .welcome img {
+    width: 40vw;
+    height: 60vw;
+  }
+}
 @media screen and (max-width: 1400px) {
   .welcome {
     flex-direction: column;
     height: 1700px;
   }
   .welcome img {
-    width: 70vw;
-    height: 90vw;
+    width: 40vw;
+    height: 60vw;
   }
   .welcome img:first-child {
     margin-top: 2rem;
@@ -71,7 +80,10 @@
   .welcome {
     height: 1400px;
   }
-
+  .welcome img {
+    width: 50vw;
+    height: 70vw;
+  }
   .welcome-text {
     height: 1000px;
   }
@@ -80,7 +92,10 @@
   .welcome {
     height: 1350px;
   }
-
+  .welcome img {
+    width: 70vw;
+    height: 90vw;
+  }
   .welcome-text h1 {
     font-size: 30px;
   }
