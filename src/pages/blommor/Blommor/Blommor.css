@@ -38,6 +38,7 @@
 }
 .blommor-title-text {
   font-family: "Libertinus Serif Display";
+  text-align: center;
   font-weight: 100;
   font-size: 35px;
   margin-top: 4rem;
@@ -52,7 +53,11 @@
   color: rgb(0, 0, 0);
 }
 .blommor-title-text-andra a {
-  text-decoration: underline;
+  color: rgb(189, 11, 11);
+  text-decoration: none;
+}
+.blommor-title-text a {
+  text-decoration: none;
   color: rgb(189, 11, 11);
 }
 .blommor-gallery {

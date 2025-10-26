@@ -43,24 +43,41 @@
   width: 80%;
 }
 .bukett-bild img {
-  width: 30vw;
+  width: 50vh;
 }
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 888px) {
   .bukett {
     flex-direction: column-reverse;
-    height: 120vh;
+    height: 1100px;
   }
   .bukett-bild img {
-    width: 70vw;
+    width: 50vw;
   }
   .bukett-text {
     width: 80vw;
     text-align: center;
+    margin-right: 0;
+  }
+  .bukett-text-text h4 {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 685px) {
+  .bukett {
+    height: 1000px;
+  }
+  .bukett-bild img {
+    width: 60vw;
   }
 }
 
 @media screen and (max-width: 445px) {
-  .bukett-text-button {
-    margin-top: 2rem;
+  .bukett {
+    height: 900px;
+  }
+}
+@media screen and (max-width: 385px) {
+  .bukett {
+    height: 900px;
   }
 }
