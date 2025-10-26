@@ -41,7 +41,10 @@ const Brollop = () => {
           <p />
           Varje Bröllop är en unik händelse som förtjäner en unik dekoration.
           <p />
-          <Link to="/kontakt"> Kontakta oss för att boka en konsultation.</Link>
+          <Link className="bröllop-text-link" to="/kontakt">
+            {" "}
+            Kontakta oss för att boka en konsultation.
+          </Link>
         </span>
       </div>
     </div>

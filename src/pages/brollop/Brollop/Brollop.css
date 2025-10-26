@@ -28,6 +28,15 @@
   font-weight: 100;
   font-size: 20px;
 }
+.bröllop-text-link {
+  text-decoration: none;
+  color: rgb(126, 9, 9);
+}
+
+.bröllop-text-link::after {
+  text-decoration: none;
+  color: rgb(126, 9, 9);
+}
 @media screen and (max-width: 600px) {
   .bröllop-text {
     width: 80vw;
