@@ -53,6 +53,29 @@
     transform: translateX(0px);
   }
 }
+@media screen and (max-width: 1500px) {
+  .KontaktInnehåll-text {
+    height: 300px;
+    top: -135%;
+    width: 40vw;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .KontaktInnehåll-text h2 {
+    margin-left: 2rem;
+    font-size: 25px;
+  }
+  .KontaktInnehåll-text {
+    height: 300px;
+    top: -135%;
+    width: 40vw;
+  }
+  .KontaktInnehåll-text span {
+    font-size: 20px;
+    margin-left: 1rem;
+  }
+}
+
 @media screen and (max-width: 820px) {
   .KontaktInnehåll-text h2 {
     margin-left: 2rem;
